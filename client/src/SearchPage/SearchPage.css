@@ -49,6 +49,8 @@ header h3 {
 .searches {
   /* padding: 30px; */
   padding-left: 10px;
+  padding-right: 10px;
+  max-width: 900px;
   padding-top: 10px;
   padding-bottom: 10px;
   list-style-type: none;

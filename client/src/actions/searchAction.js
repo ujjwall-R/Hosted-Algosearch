@@ -12,7 +12,11 @@ export const searchText = async (text) => {
         "Content-type": "application/json",
       },
     };
-    const { data } = await axios.post(`/search/text`, { text: text }, config);
+    const { data } = await axios.post(
+      `http://localhost:5000/search/text`,
+      { text: text },
+      config
+    );
     if (!data) {
       throw new Error("No result found");
       return;
