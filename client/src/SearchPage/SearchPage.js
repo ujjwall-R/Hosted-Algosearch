@@ -26,14 +26,11 @@ const SearchPage = () => {
         searching...
       </>
     );
-    const mess = <>{loading}</>;
-    const mess2 = <>No results Found.</>;
     const results = await searchText(text);
     if (results) {
       if (!(results.titles.length == 0)) {
         setsearchResult(results);
         setloading("");
-        mess = <></>;
       } else {
         setloading(
           <>
@@ -53,7 +50,7 @@ const SearchPage = () => {
   };
 
   const listItems = searchResult.questionsFound.map((question, i) => (
-    <li className="searches">
+    <li className="searches" key={i * 12}>
       <h2 className="result-link">
         <a href={searchResult.urls[i]}>{searchResult.titles[i]}</a>
       </h2>
@@ -144,16 +141,13 @@ const SearchPage = () => {
                     textDecoration: "none",
                   }}
                 >
-                  About the developer
+                  About the Developer
                 </Link>
               </p>
             </div>
             <div className="row-item two">
               <div>
-                {/* <img id="countMe" src="sdfavi.png" /> */}
                 <p>Copyright Ⓒ 2022 Ujjwal R.</p>
-                {/*<?php
-                    echo(''); ?> */}
               </div>
             </div>
             <div className="row-item three">
@@ -161,6 +155,38 @@ const SearchPage = () => {
             </div>
           </div>
         </div>
+        {/* <p
+          className="footer-heart"
+          style={{ textAlign: "center", fontFamily: "open sans, sans-serif" }}
+        >
+          Made with{" "}
+          <g-emoji
+            className="g-emoji"
+            alias="heart"
+            fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"
+          >
+            <img
+              className="emoji"
+              alt="heart"
+              height={20}
+              width={20}
+              src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"
+              style={{ verticalAlign: "middle" }}
+            />
+          </g-emoji>{" "}
+          by{" "}
+          <a
+            href="https://armin.id"
+            style={{
+              borderBottom: "1px solid #453886",
+              color: "#453886",
+              paddingBottom: ".25em",
+              textDecoration: "none",
+            }}
+          >
+            Arminisme
+          </a>
+        </p> */}
       </footer>
     </div>
   );

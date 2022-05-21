@@ -42,13 +42,12 @@ router.get("/hi", async (req, res) => {
   }
 });
 
+//GET:/search/:text
 //@description:search a text
 //public
-//
-router.post("/search/text", async (req, res) => {
+router.get("/search/:text", async (req, res) => {
   try {
-    const text = req.body.text.toString().toLowerCase();
-
+    const text = req.params.text.toString().toLowerCase();
     const NoOfKeyWordsInDoc = keyword_extractor.extract(text, {
       language: "english",
       remove_digits: true,
