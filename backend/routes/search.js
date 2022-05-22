@@ -2,10 +2,12 @@ const express = require("express");
 var path = require("path");
 const router = new express.Router();
 const fs = require("fs");
+var stripchar = require("stripchar").StripChar;
 const keyword_extractor = require("keyword-extractor");
 
 function count(str, find) {
-  return str.split(find).length - 1;
+  let count = (str.match(find) || []).length;
+  return count;
 }
 
 const ProblemDirectory = "./DataSet/Problems/";
@@ -33,6 +35,12 @@ const AllKeyWords = fs
   .split("\n");
 // console.log(AllKeyWords);
 
+const magnitudeDocWise = fs
+  .readFileSync("./DataSet/magnitude.txt")
+  .toString()
+  .split("\n");
+// console.log(magnitudeDocWise);
+
 //@description:testing
 router.get("/hi", async (req, res) => {
   try {
@@ -47,24 +55,41 @@ router.get("/hi", async (req, res) => {
 //public
 router.get("/search/:text", async (req, res) => {
   try {
-    const text = req.params.text.toString().toLowerCase();
+    let text = req.params.text.toString();
+    text = stripchar.RSspecChar(text);
+    text = text.toLowerCase();
+    // console.log(text);
     const NoOfKeyWordsInDoc = keyword_extractor.extract(text, {
       language: "english",
       remove_digits: true,
       return_changed_case: true,
       remove_duplicates: false,
     }).length;
-
+    // console.log(text);
     let TfOfText = [];
     let TFIDFOfText = [];
+    let magOfText;
+    let sqSum = 0;
     AllKeyWords.forEach((keyword, i) => {
+      // console.log(count(text, keyword));
       TfOfText[i] = count(text, keyword) / NoOfKeyWordsInDoc;
       TFIDFOfText[i] = TfOfText[i] * (1 * IDFArray[i]);
       if (!TFIDFOfText[i]) TFIDFOfText[i] = 0;
     });
+    // console.log(TFIDFOfText);
+    TFIDFOfText.forEach((tfidf_, i) => {
+      if (tfidf_ != Infinity) sqSum += tfidf_ * tfidf_;
+      // console.log(tfidf_, sqSum, i);
+    });
+
+    magOfText = Math.sqrt(sqSum);
+    // console.log(magOfText);
+
+    let cosineDocWise = [];
     let DotProDocumentWise = [];
     fileNames.forEach((f, i) => {
       DotProDocumentWise[i] = [0, i];
+      cosineDocWise[i] = [0, i];
     });
     TFIDFArray.forEach(([i, j, val]) => {
       i = i * 1;
@@ -73,13 +98,20 @@ router.get("/search/:text", async (req, res) => {
       if (val * TFIDFOfText[j])
         DotProDocumentWise[i][0] += val * TFIDFOfText[j];
     });
-    DotProDocumentWise = DotProDocumentWise.sort().reverse();
+    // DotProDocumentWise = DotProDocumentWise.sort().reverse();
+    // console.log(DotProDocumentWise);
+    DotProDocumentWise.forEach((dp, i) => {
+      cosineDocWise[i] = [dp[0] / (magOfText * magnitudeDocWise[i]), i];
+    });
+    cosineDocWise = cosineDocWise.sort().reverse();
+    // console.log(cosineDocWise);
 
-    if (DotProDocumentWise[10][0] > 0)
-      search_result = DotProDocumentWise.slice(0, 10);
-    else if (DotProDocumentWise[5][0] > 0)
-      search_result = DotProDocumentWise.slice(0, 5);
+    if (cosineDocWise[15][0] > 0) search_result = cosineDocWise.slice(5, 15);
+    else if (cosineDocWise[10][0] > 0)
+      search_result = cosineDocWise.slice(5, 10);
     else search_result = [];
+
+    // console.log(search_result);
 
     let questionsFound = [];
     let urls = [];
@@ -95,7 +127,7 @@ router.get("/search/:text", async (req, res) => {
         fs
           .readFileSync(`./DataSet/Problems/${titles[i]}.txt`)
           .toString()
-          .slice(2, 350) + "...";
+          .slice(0, 350) + "...";
     });
     titles.forEach((element, i) => {
       urls[i] = `https://www.codechef.com/problems/${element}`;
