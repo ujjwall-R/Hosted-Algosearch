@@ -21,6 +21,7 @@ header h3 {
 .center-form {
   margin: auto;
   padding-left: 50px;
+  padding-right: 50px;
 }
 
 .center-form form {
