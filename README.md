@@ -4,7 +4,7 @@ ALGOsearch is a Search Engine designed specifically for Data Structure and Algor
 
 ## Web Application
 
-It uses TF-IDF Algorithm to implement search. The server is live on [https://algosearchujjwal.herokuapp.com/](https://algosearchujjwal.herokuapp.com/).
+It uses [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) Algorithm to implement search. The server is live on [https://algosearchujjwal.herokuapp.com/](https://algosearchujjwal.herokuapp.com/).
 
 ## Installation
  
