@@ -27,7 +27,7 @@ npm install
 cd ..
 ```
 ### Rebuilding the DataSet [optional]
-The DataSet is already build in markup: ```./DataSet```. Anyways you can rebuild the DataSet if you wish. Give the problem tags to build the dataset.
+The DataSet is already build in ```./DataSet```. Anyways you can rebuild the DataSet if you wish. Give the problem tags to build the dataset.
 #### Mac/Linux:
 ```bash
 cd DataSet
