@@ -35,6 +35,14 @@ rm -rf IDF.txt TFIDF.txt keywords.txt magnitude.txt problem_titles.txt problem_u
 mkdir Problems
 python -u scrapper.py
 ```
+#### Windows:
+```bash
+cd DataSet
+rmdir Problems
+del IDF.txt TFIDF.txt keywords.txt magnitude.txt problem_titles.txt problem_urls.txt 
+mkdir Problems
+python -u scrapper.py
+```
 After building the DataSet for problem tags of your choice, buid the TF IDF data. Note that you have opted to build your own corpus. This may take some time.
 ```bash
 node calc.js
