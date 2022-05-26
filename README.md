@@ -2,8 +2,6 @@
 
 ALGOsearch is a Search Engine designed specifically for Data Structure and Algorithm questions in platforms like codechef and codeforces.
 
-<!-- ![alt text](https://github.com/ujjwall-R/Hosted-Algosearch/blob/master/pic.png?raw=true) -->
-
 ## Web Application
 
 It uses TF-IDF Algorithm to implement search. The server is live on [https://algosearchujjwal.herokuapp.com/](https://algosearchujjwal.herokuapp.com/).
@@ -29,14 +27,30 @@ npm install
 cd ..
 ```
 ### Rebuilding the DataSet [optional]
-The DataSet is already build in markup: ```./DataSet```. Anyways you can rebuild the DataSet if you wish.
-
-## Usage 
-```python
-import foobar
-# returns 'words' foobar.pluralize('word')
-# returns 'geese' foobar.pluralize('goose') # returns 'phenomenon' foobar.singularize('phenomena') 
+The DataSet is already build in markup: ```./DataSet```. Anyways you can rebuild the DataSet if you wish. Give the problem tags to build the dataset.
+#### Mac/Linux:
+```bash
+cd DataSet
+rm -rf IDF.txt TFIDF.txt keywords.txt magnitude.txt problem_titles.txt problem_urls.txt Problems
+mkdir Problems
+python -u scrapper.py
 ```
+After building the DataSet for problem tags of your choice, buid the TF IDF data. Note that you have opted to build your own corpus. This may take some time.
+```bash
+node calc.js
+cd ..
+```
+### Usage
+Now you are ready to go and start the web application. In the root directory, start the server.
+```bash
+nodemon index.js
+```
+Start the react app in another terminal.
+```bash
+cd client
+npm start
+```
+Visit your localHost address where the client side app is running and enjoy searching.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please contact to suggest any change in the corpus.
