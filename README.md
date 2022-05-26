@@ -6,7 +6,7 @@ ALGOsearch is a Search Engine designed specifically for Data Structure and Algor
 
 It uses [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) Algorithm to implement search. The server is live on [https://algosearchujjwal.herokuapp.com/](https://algosearchujjwal.herokuapp.com/).
 
-## Installation
+## Installation [development]
  
 ### Dependencies
 
@@ -53,4 +53,4 @@ npm start
 Visit your localHost address where the client side app is running and enjoy searching.
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please contact to suggest any change in the corpus.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please contact to suggest any change in the corpus of the [live](https://algosearchujjwal.herokuapp.com/) application.
