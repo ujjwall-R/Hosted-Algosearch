@@ -1,6 +1,6 @@
 
 It's your birthday today! So, you ask your dad to buy a brand new bicycle. But your dad knows you are weak in math. Hence he gives you the following task. If you solve it, he will purchase the bicycle you want! The task is:
-You are given a binary string. N denotes the length of a binary string and M denotes the number of occurrences of the character 1 in the string S.
+You are given a binary string. NN denotes the length of a binary string and MM denotes the number of occurrences of the character 11 in the string S.
 Let F(S) be a function that gives the number of different substrings of string S, made up of the character 0 only. 
 Let Subl,r denote the substring of S starting from lth index and terminating at rth index. Two substrings Subp,q and Subr,s are considered same if p=r and q=s otherwise the two substrings are considered different. 
 Among all possible strings S of length N having exactly M occurrences of the character 1, print the minimum possible value of F(S).

@@ -1,7 +1,7 @@
 
 Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
 After learning about the bitwise AND operation, Ridbit challenged Ashishgup to solve the following problem.
-Let's denote the bitwise AND of one or more integers a1,a2,…,aka1,a2,…,ak by AND(a1,a2,…,ak)AND(a1,a2,…,ak). For example, AND(7,3,5)=1AND(7,3,5)=1. In particular, for an integer x, AND(x)=x.
+Let's denote the bitwise AND of one or more integers a1,a2,…,ak by AND(a1,a2,…,ak). For example, AND(7,3,5)=1. In particular, for an integer x, AND(x)=x.
 Given a sequence of integers A1,A2,…,AN, Ridbit wants Ashishgup to reorder its elements (possibly leaving the sequence unchanged) in such a way that in the resulting sequence A, the sum of the values of bitwise AND for all prefixes of the sequence, i.e. ∑Ni=1AND(A1,A2,…Ai), is maximum possible.
 Find the maximum value of this sum.
 Input

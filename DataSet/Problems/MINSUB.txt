@@ -1,5 +1,5 @@
 
-You are given a binary string AA of length NN. Rearrange the binary string to form binary strings S and T such that the length of the longest common substring between S and T is minimum.
+You are given a binary string AA of length NN. Rearrange the binary string to form binary strings SS and T such that the length of the longest common substring between S and T is minimum.
 Print both strings S and T.
 Note that both S and T must be anagrams of A — see the examples below for more clarity.
 Input Format

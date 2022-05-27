@@ -1,6 +1,6 @@
 
 Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
-You are given a string S containing only decimal digits ('0' through '9') and a number N. Your task is to insert an arbitrary number (including zero) of plus signs '+' into S in order to form a valid expression whose value is equal to N.
+You are given a string SS containing only decimal digits ('0' through '9') and a number NN. Your task is to insert an arbitrary number (including zero) of plus signs '+' into SS in order to form a valid expression whose value is equal to N.
 Input
 
 The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.

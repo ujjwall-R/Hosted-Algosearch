@@ -1,5 +1,5 @@
 
-You are given an integer array( AA ) of size NN and an integer value K.
+You are given an integer array( A ) of size N and an integer value K.
 Find the number of sub-arrays of A, such that the difference between maximum value and minimum value in the sub array is less than or equal to K.
 Sub-array is a contiguous portion of an array and two sub-arrays are different if their starting index or ending index is not same.
 Input:

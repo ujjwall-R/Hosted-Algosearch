@@ -1,7 +1,7 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
 You are given a set SS, which is a subset of {1,2,…,N}{1,2,…,N}.
-Consider a permutation P1,P2,…,PNP1,P2,…,PN of the integers 1 through N. The cost of this permutation is the number of indices i>1 such that Pi is divisible by Pi−1 and PiPi−1∈S.
+Consider a permutation P1,P2,…,PN of the integers 1 through N. The cost of this permutation is the number of indices i>1 such that Pi is divisible by Pi−1 and PiPi−1∈S.
 For each k between 0 and N−1 (inclusive), find the number of permutations with cost k. Since these numbers may be large, compute them modulo 998,244,353.
 Input
 

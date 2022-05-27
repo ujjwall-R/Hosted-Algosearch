@@ -2,7 +2,7 @@
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
 Chef is a big fan of soccer! He loves soccer so much that he even invented soccer for dogs! Here are the rules of soccer for dogs:
 
-NN dogs (numbered 11 through N) stand in a line in such a way that for each valid i, dogs i and i+1 are adjacent.
+NN dogs (numbered 11 through NN) stand in a line in such a way that for each valid i, dogs i and i+1 are adjacent.
 Each dog has a skill level, which is either 1 or 2.
 At the beginning of the game, Chef passes a ball to dog 1 (dog 1 receives the ball).
 For each valid i, if dog i has skill level s, this dog can pass the ball to any dog with number j such that 1≤|i−j|≤s.

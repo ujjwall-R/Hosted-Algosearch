@@ -1,7 +1,7 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
 In Chefland, each citizen has their own personal string. Chef is no exception. Recently, his string broke and he went to a shop to get a new one.
-There are two strings in the shop: AA and BB. Chef may choose any substring AsAs of AA (possibly empty) and any substring Bs of B (also possibly empty). Then, the shop assistant cuts these substrings out and sells a single string C=As+Bs (here, + denotes string concatenation) to Chef. For example, if A is "aba" and B is "cde", then some of the strings Chef can buy are "ba", "bac", "bacd", "ae", "d", "acde", "aba", "cde" or "abacde".
+There are two strings in the shop: AA and BB. Chef may choose any substring AsAs of A (possibly empty) and any substring Bs of B (also possibly empty). Then, the shop assistant cuts these substrings out and sells a single string C=As+Bs (here, + denotes string concatenation) to Chef. For example, if A is "aba" and B is "cde", then some of the strings Chef can buy are "ba", "bac", "bacd", "ae", "d", "acde", "aba", "cde" or "abacde".
 Chef has seen a lot of strings in his life and he liked exactly N of them (numbered 1 through N). For each valid i, the i-th of these strings is denoted by Si and according to Chef, it has a beauty bi. Let's denote the number of substrings of C that are equal to Si by cnti(C). If Chef buys a string C, he says that the pleasure he gets from this string is ∑Ni=1cnti(C)⋅bi.
 What is the maximum possible pleasure Chef can get from a string he buys in the shop?
 Input

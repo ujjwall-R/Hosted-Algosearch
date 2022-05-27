@@ -1,6 +1,6 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-Chef has a sequence of integers A1,A2,…,ANA1,A2,…,AN. He takes a sheet of paper and for each non-empty subsequence BB of this sequence, he does the following:
+Chef has a sequence of integers A1,A2,…,AN. He takes a sheet of paper and for each non-empty subsequence B of this sequence, he does the following:
 
 For each integer which appears in B, count its number of occurrences in the sequence B.
 Choose the integer with the largest number of occurrences. If there are several options, choose the smallest one.

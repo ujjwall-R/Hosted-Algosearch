@@ -5,10 +5,10 @@ Formally, a substring is a contiguous sequence of characters within a string. So
 A palindrome is a word, phrase, or sequence that reads the same backwards as forwards, e.g. madam or mom.
 Input:
 
-First-line will contain TT, the number of test cases. Then the test cases follow. 
+First-line will contain T, the number of test cases. Then the test cases follow. 
 Each test case contains of two lines of input, two integers.
-First, we have a single integer NN which signifies the length of the substring.
-Next, we have a string of length NN that only has lowercase English alphabets.
+First, we have a single integer N which signifies the length of the substring.
+Next, we have a string of length N that only has lowercase English alphabets.
 
 Output:
 For each testcase, output in a single line the shortest palindromic substring.

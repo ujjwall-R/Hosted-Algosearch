@@ -1,6 +1,6 @@
 
 Read problems statements Bengali , Mandarin chinese and Vietnamese as well.
-In Chefland, there are N cities (numbered 1 through N) connected by N−1 bidirectional roads in such a way that it is possible to reach any city from any other city. Each city has its own traditional dish for which it is famous; let's denote the tastiness of the dish in city i by Ai.
+In Chefland, there are NN cities (numbered 11 through N) connected by N−1 bidirectional roads in such a way that it is possible to reach any city from any other city. Each city has its own traditional dish for which it is famous; let's denote the tastiness of the dish in city i by Ai.
 Chef is currently learning how to prepare tastier dishes. At any point, he can only remember how to cook one dish. Initially, the tastiness of the dish he can cook is W. Chef is going to travel from city 1 to city v. In each city he visits (including 1 and v), if the tastiness of the traditional dish of this city is strictly greater than the tastiness of the dish he can currently cook, then he forgets the dish he can currently cook and learns the traditional dish of this city.
 Now, Chef is wondering how many times he is going to learn a new dish during his trip. You should answer Q independent queries. In each query, you are given the initial tastiness W and Chef's final destination v; compute the number of times Chef learns a new dish. Note that the input is given in a special format, so you have to answer the queries online.
 Input

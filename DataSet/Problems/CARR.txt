@@ -1,6 +1,6 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-You are given two integers N and M. Find the number of sequences A1,A2,…,AN, where each element is an integer between 1 and M (inclusive) and no three consecutive elements are equal. Since this number could be very large, compute it modulo 109+7.
+You are given two integers NN and MM. Find the number of sequences A1,A2,…,ANA1,A2,…,AN, where each element is an integer between 1 and M (inclusive) and no three consecutive elements are equal. Since this number could be very large, compute it modulo 109+7.
 Input
 
 The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.

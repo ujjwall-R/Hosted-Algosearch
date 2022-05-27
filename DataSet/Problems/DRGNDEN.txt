@@ -1,7 +1,7 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
 Chef is on an adventure to find the tastiest exotic spices. Everyone knows that the best spices are guarded by several ancient dragons that dwell within mountains.
-The mountain range can be modeled by a polyline in the 2D xzxz plane that passes through NN points p1=(1,h1),p2=(2,h2),…,pN=(N,hN), in this order, where hi is a positive integer for each valid i. This polyline divides the set of points {(x,z):1≤x≤N} into two regions. The "solid" part of the mountain range is the "bottom" region, i.e. the region that contains the x-axis (the x-axis is the line z=0).
+The mountain range can be modeled by a polyline in the 2D xz plane that passes through N points p1=(1,h1),p2=(2,h2),…,pN=(N,hN), in this order, where hi is a positive integer for each valid i. This polyline divides the set of points {(x,z):1≤x≤N} into two regions. The "solid" part of the mountain range is the "bottom" region, i.e. the region that contains the x-axis (the x-axis is the line z=0).
 A dragon's den is located at each of the N points. For each valid i, the den at the point pi initially contains a pile of spices with tastiness ai. With a technique he learned from dragons, Chef can glide from den to den, tasting all of the spices along the way. The tastiness of an entire journey is the summed up tastiness of spices over all dens visited during the journey. However, there are some restrictions:
 
 Chef can only glide from a higher den to a strictly lower den, i.e. if he glides from a den at pi to a den at pj, then hi>hj must hold.

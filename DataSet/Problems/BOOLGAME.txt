@@ -1,6 +1,6 @@
 
 Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-Consider NN binary variables x1,x2,…,xNx1,x2,…,xN. For each valid ii, the i-th of these variables can be xi=0 or xi=1; therefore, there are 2N possible assignments of values to the variables. For each valid i, setting xi=1 gives you score gi.
+Consider N binary variables x1,x2,…,xN. For each valid i, the i-th of these variables can be xi=0 or xi=1; therefore, there are 2N possible assignments of values to the variables. For each valid i, setting xi=1 gives you score gi.
 In addition, there are M special intervals (numbered 1 through M). For each valid i, the i-th interval is [ui,vi] and if xui=xui+1=…=xvi=1, then your score increases by di.
 Note that both gi and di can be negative (setting more variables to 1 can decrease your score), and your score can also be negative. Formally, the score of an assignment of values to the binary variables is
 N∑i=1gi⋅xi+M∑i=1di⋅vi∏j=uixj.

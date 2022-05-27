@@ -1,7 +1,7 @@
 
 Read problem statements in Mandarin, Russian, and Vietnamese as well.
 Chef is busy preparing for the next lunchtime, so he has given you the following task.  
-You are given an array aa consisting of nn positive integers. The goodnessgoodness of the array a is defined as the GCD of all the elements in the array.
+You are given an array a consisting of n positive integers. The goodness of the array a is defined as the GCD of all the elements in the array.
 Formally, goodness=GCD(a1,a2,…,an). 
 You can perform the following type of operation:
 

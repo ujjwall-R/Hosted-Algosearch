@@ -1,6 +1,6 @@
 
 Chef hosts a party for his birthday. There are NN people at the party. All these NN people decide to play Jenga.
-There are XX Jenga tiles available. In one round, all the players pick 1 tile each and place it in the tower.
+There are X Jenga tiles available. In one round, all the players pick 1 tile each and place it in the tower.
 The game is valid if:
 
 All the players have a tile in each round;

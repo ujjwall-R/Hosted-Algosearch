@@ -1,25 +1,25 @@
 
 Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
 There are NN light bulbs in a row, numbered 11 through NN from left to right. Each bulb can be in one of the states "on" or "off". Initially, all the bulbs are "off". Each bulb is also connected to its (at most two) adjacent bulbs by wires.
-You should reach a state described by a given a binary string S with length N ― for each valid i, if the i-th character of S is '1', the i-th bulb should be "on", and if it is '0', the i-th bulb should be "off". You may do that by performing the following steps in the given order:
+You should reach a state described by a given a binary string SS with length NN ― for each valid ii, if the ii-th character of SS is '1', the ii-th bulb should be "on", and if it is '0', the ii-th bulb should be "off". You may do that by performing the following steps in the given order:
 
-Cut up to K of the N−1 wires between adjacent bulbs (possibly none of them).
+Cut up to KK of the N−1N−1 wires between adjacent bulbs (possibly none of them).
 Switch on some bulbs (possibly none). Here, whenever two bulbs are still connected by wires (directly or indirectly) and one of them gets switched on, then the other one also gets switched on.
 Disconnect some bulbs from the electrical network. Here, disconnecting a bulb switches it off, but it does not affect any other bulbs ― if a bulb was switched on before this step and it was not disconnected in this step, it remains switched on afterwards.
 
 Minimise the number of bulbs you need to disconnect in step 3 in order to reach the given final state of the bulbs.
 Input
 
-The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
-The first line of each test case contains two space-separated integers N and K.
-The second line contains a single string S.
+The first line of the input contains a single integer TT denoting the number of test cases. The description of TT test cases follows.
+The first line of each test case contains two space-separated integers NN and KK.
+The second line contains a single string SS.
 
 Output
 For each test case, print a single line containing one integer ― the smallest number of bulbs you need to disconnect.
 Constraints
 
-1≤T≤1,000
-0≤K<N≤105
+1≤T≤1,0001≤T≤1,000
+0≤K<N≤1050≤K<N≤105
 |S|=N
 S contains only characters '0' and '1'
 the sum of N over all test cases does not exceed 5⋅105

@@ -2,13 +2,13 @@
 Read problem statements in Mandarin Chinese, and Russian as well.
 As you know, there is a big problem in the educational system of Chefland - impudent students who cuts in line in the cafeteria. Chef wants to assess the problem. He was able to understand how the queue works:
 
-Each student has value of discontent, which is initially equal to 0;
+Each student has value of discontent, which is initially equal to 00;
 Initially the queue is empty;
 Students arrive at the queue one by one. Each student can either enter the queue in the end, or \textit{cut in line}, by which we mean stand in front of one or more students already in the queue;
-When someone cuts in line, the value of discontent of every student who ended up behind the new one is increased by 1.
+When someone cuts in line, the value of discontent of every student who ended up behind the new one is increased by 11.
 
 For example, if the students will enter the queue in the following order:
-[]→[1]→[1,2]→[1,3,2]→[1,3,2,4]→[1,3,5,2,4]
+[]→[1]→[1,2]→[1,3,2]→[1,3,2,4]→[1,3,5,2,4][]→[1]→[1,2]→[1,3,2]→[1,3,2,4]→[1,3,5,2,4]
 The discontent of the students in the queue will change as follows:
 []→[0]→[0,0]→[0,0,1]→[0,0,1,0]→[0,0,0,2,1]
 Note that the values of discontent are given in the same order as students are in the queue in the end of the process, not in order they were entering the queue.

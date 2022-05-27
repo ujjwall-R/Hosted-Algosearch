@@ -1,6 +1,6 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-NN integers A1,A2,…,ANA1,A2,…,AN are placed in a circle in such a way that for each valid ii, Ai and Ai+1 are adjacent, and A1 and AN are also adjacent.
+NN integers A1,A2,…,ANA1,A2,…,AN are placed in a circle in such a way that for each valid i, Ai and Ai+1 are adjacent, and A1 and AN are also adjacent.
 We want to repeat the following operation exactly N−1 times (until only one number remains):
 
 Select two adjacent numbers. Let's denote them by a and b.

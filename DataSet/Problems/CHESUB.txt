@@ -1,6 +1,6 @@
 
 Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-You are given two integers N and K, and an array A of N integers. You have to choose K disjoint non-empty subarrays such that the score is maximized. 
+You are given two integers NN and KK, and an array A of N integers. You have to choose K disjoint non-empty subarrays such that the score is maximized. 
 The score is calculated as follows:
 Score=K∑i=1Sum[i]⋅i,
 where Sum[i] denotes sum of elements of i-th subarray. By the i-th subarray, we mean the i-th one in the order from left to right.

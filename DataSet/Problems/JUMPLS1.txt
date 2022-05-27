@@ -1,5 +1,5 @@
 
-You can only jump from step−(x)step−(x) to step−(x+1)step−(x+1), step−(x+2)step−(x+2), or step−(x+3).
+You can only jump from step−(x) to step−(x+1), step−(x+2), or step−(x+3).
 You have to solve t cases.
 In each case, you are given an integer n. You have to find the number of ways to reach step−(n), starting from step−(0).
 Input:

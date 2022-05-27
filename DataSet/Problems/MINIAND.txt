@@ -1,5 +1,5 @@
 
-We all know Gru loves Agnes very much. One day Agnes asked Gru to answer some of her queries. She lined up NN minions in a straight line from 11 to NN. 
+We all know Gru loves Agnes very much. One day Agnes asked Gru to answer some of her queries. She lined up NN minions in a straight line from 11 to N. 
 You are given an array A which contains the height of minions. Agnes will ask him several queries. In each query, Gru has to tell whether the bitwise AND of  A[L…R] is EVEN or ODD. Since Gru is busy planning the biggest heist on Earth, he asks for your help.
 Input:
 

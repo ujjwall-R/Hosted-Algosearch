@@ -62,7 +62,7 @@ No
 
 
 Explanation
-Test case 1: Chef will start his journey from L2. He switches gravity and jumps to L1. He continues on L1 till block 4 and then again switch gravity and jump to block 5 of L2. Therefore, he requires total 2 gravity switches to reach the destination.
+Test case 11: Chef will start his journey from L2L2. He switches gravity and jumps to L1L1. He continues on L1 till block 4 and then again switch gravity and jump to block 5 of L2. Therefore, he requires total 2 gravity switches to reach the destination.
 Test case 2: Chef will start his journey from L2. He switches gravity and jumps to second block of L1. He switches gravity and jumps to third block of L2. He switches gravity and jumps to fourth block of L1. He switches gravity and jumps to fifth block of L2. He switches gravity and jumps to sixth block of L1. Therefore, he requires total 5 gravity switches to reach the destination.
 Test case 3: Chef cannot start his journey as starting block of both the lanes L1 and L2 are dirty and he cannot step over them.
 

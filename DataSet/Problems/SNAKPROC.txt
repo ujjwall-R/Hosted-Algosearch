@@ -6,9 +6,9 @@ Formally, a snake is represented by a 'H' followed by some (possibly zero) '.'s,
 Chef had binged on the festival food and had been very drowsy. So his report might be invalid. You need to help him find out if his report is valid or not.
 Input
 
-The first line contains a single integer, R, which denotes the number of reports to be checked. The description of each report follows after this.
-The first line of each report contains a single integer, L, the length of that report.
-The second line of each report contains a string of length L. The string contains only the characters '.', 'H', and 'T'.
+The first line contains a single integer, RR, which denotes the number of reports to be checked. The description of each report follows after this.
+The first line of each report contains a single integer, LL, the length of that report.
+The second line of each report contains a string of length LL. The string contains only the characters '.', 'H', and 'T'.
 
 Output
 

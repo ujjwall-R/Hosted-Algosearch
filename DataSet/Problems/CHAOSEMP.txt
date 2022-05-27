@@ -2,10 +2,10 @@
 Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
 This is an interactive problem.
 A mysterious organisation has stolen an EMP chip prototype from a high-tech US facility. IGI knows the consequences of the chip falling into the wrong hands. Since it is just a prototype, they wish to destroy it completely instead of attempting to retrieve it. The best opportunity to do so is when the chip is being transferred from one base to another in a secured truck.
-The truck can move on an infinite two-dimensional plane. Initially, it is located at some point with integer coordinates (H,K). Unfortunately, this point and the route the truck is going to follow are unknown.
+The truck can move on an infinite two-dimensional plane. Initially, it is located at some point with integer coordinates (H,K)(H,K). Unfortunately, this point and the route the truck is going to follow are unknown.
 To accomplish his task, David Jones can use two kinds of weapons with the following feedback systems:
 
-Hellfire ― Launched towards a single point (X,Y). Anything lying at this point is instantly destroyed. Let's denote the location of the truck at this point in time by (A,B). Then, the feedback is one of the following strings:
+Hellfire ― Launched towards a single point (X,Y)(X,Y). Anything lying at this point is instantly destroyed. Let's denote the location of the truck at this point in time by (A,B)(A,B). Then, the feedback is one of the following strings:
 
 "O" if X=A and Y=B
 "PY" if X>A and Y=B

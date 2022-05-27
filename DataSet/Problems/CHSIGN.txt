@@ -1,7 +1,7 @@
 
 Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
-You are given a sequence of integers A1,A2,…,AN.
-You should choose an arbitrary (possibly empty) subsequence of A and multiply each element of this subsequence by −1. The resulting sequence should satisfy the following condition: the sum of elements of any contiguous subsequence with length greater than 1 is strictly positive.
+You are given a sequence of integers A1,A2,…,ANA1,A2,…,AN.
+You should choose an arbitrary (possibly empty) subsequence of AA and multiply each element of this subsequence by −1−1. The resulting sequence should satisfy the following condition: the sum of elements of any contiguous subsequence with length greater than 1 is strictly positive.
 You should minimise the sum of elements of the resulting sequence. Find one such sequence with the minimum possible sum.
 Input
 

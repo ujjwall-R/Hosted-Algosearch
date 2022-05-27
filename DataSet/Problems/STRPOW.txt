@@ -1,7 +1,7 @@
 
 Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
 Chef has been recently studying strings and probabilities and he came up with a problem for you.
-Consider an alphabet with NN characters (denoted by c1,c2,…,cNc1,c2,…,cN). For each valid ii, the character cici has a power aiai; the power of a string that contains only characters from this alphabet is the sum of their powers (if a character occurs multiple times, its power also occurs in the sum multiple times). For example, the power of a string c1c2c3c1c2c3 is a1+a2+a3a1+a2+a3 and the power of a string c1c2c1c1c2c1 is 2⋅a1+a2.
+Consider an alphabet with NN characters (denoted by c1,c2,…,cNc1,c2,…,cN). For each valid ii, the character ci has a power ai; the power of a string that contains only characters from this alphabet is the sum of their powers (if a character occurs multiple times, its power also occurs in the sum multiple times). For example, the power of a string c1c2c3 is a1+a2+a3 and the power of a string c1c2c1 is 2⋅a1+a2.
 Also, for each valid i, you are given two parameters pi and Bi, where pi is a non-negative integer and Bi∈{0,1}. For an integer K, we can construct a random string S with length K in the following way:
 
 Define R=N∑i=1pi.

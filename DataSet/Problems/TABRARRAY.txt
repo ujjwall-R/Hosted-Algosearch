@@ -1,5 +1,5 @@
 
-You are given a positive integer KK and a tree with NN vertices, rooted at vertex 11.
+You are given a positive integer K and a tree with N vertices, rooted at vertex 1.
 For all integer i (2≤i≤N), Pi is a parent of vertex i.
 Let's call an array A consisting of N positive integers brilliant if the following constraints are met
 

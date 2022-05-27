@@ -1,6 +1,6 @@
 
 Read problems statements in Hindi, Mandarin Chinese, Vietnamese, and Bengali as well.
-You are given a grid with NN rows and MM columns, where each cell contains either '0' or '1'.
+You are given a grid with N rows and M columns, where each cell contains either '0' or '1'.
 You may perform the following operation up to K times: choose two different cells and swap the values in them. Find the largest possible side length of a square subgrid which contains only '0'-s after performing these operations.
 Input
 

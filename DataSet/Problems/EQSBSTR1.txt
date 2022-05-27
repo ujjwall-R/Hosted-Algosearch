@@ -1,6 +1,6 @@
 
 Please note that the two versions of this problem differ only by constraints. The problem statement is exactly the same in both.
-You are given two strings AA and BB of lengths NN and MM respectively. Find the maximum length of a substring of A that is also present in B. Let this maximum length be K. Also, find all such substrings of length K that is present in both A and B and print the number of times each such substring occurs in B. 
+You are given two strings AA and BB of lengths NN and M respectively. Find the maximum length of a substring of A that is also present in B. Let this maximum length be K. Also, find all such substrings of length K that is present in both A and B and print the number of times each such substring occurs in B. 
 Input:
 
 First line contains a single integer T, the number of test cases.

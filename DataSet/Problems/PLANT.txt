@@ -1,6 +1,6 @@
 
 Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-You are given a string SS with length NN. You should find two non-intersecting substrings of SS such that the second one is a substring of the first one and the product of these substrings' lengths is the maximum possible. More formally, let's denote a contiguous substring Sl,Sl+1,…,Sr by S[l,r]; you should find integers l1, r1, l2 and r2 which satisfy these four criteria:
+You are given a string SS with length NN. You should find two non-intersecting substrings of S such that the second one is a substring of the first one and the product of these substrings' lengths is the maximum possible. More formally, let's denote a contiguous substring Sl,Sl+1,…,Sr by S[l,r]; you should find integers l1, r1, l2 and r2 which satisfy these four criteria:
 
 1≤l1≤r1≤N and 1≤l2≤r2≤N
 r2<l1 or r1<l2

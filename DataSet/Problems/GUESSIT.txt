@@ -2,7 +2,7 @@
 Read problems statements in Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
 This is an interactive problem.
 Chef has a secret integer. The only information you have is that it has an odd number of factors and that it lies between 11 and 106106 inclusive.
-You have been challenged by Chef to find his number. You may make up to 2,000 guesses (queries). Whenever you guess Chef's number, he only tells you if you guessed correctly or not. Can you find Chef's number?
+You have been challenged by Chef to find his number. You may make up to 2,0002,000 guesses (queries). Whenever you guess Chef's number, he only tells you if you guessed correctly or not. Can you find Chef's number?
 Interaction
 
 First, you should read a line containing a single integer T ― the number of test cases. The description of interaction for T test cases follows.

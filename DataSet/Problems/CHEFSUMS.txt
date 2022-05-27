@@ -1,6 +1,6 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-Chef gave you a sequence of integers a1,a2,…,aNa1,a2,…,aN and 33 integers KK, m and x. Let's define the following functions:
+Chef gave you a sequence of integers a1,a2,…,aN and 3 integers K, m and x. Let's define the following functions:
 G(i1,…,iK)=gcd(ai1,…,aiK)
 Sx(i1,…,iK)=axi1+axi2+…+axiK
 Pm(i1,…,iK)=(ai1⋅ai2⋅…⋅aiK)m

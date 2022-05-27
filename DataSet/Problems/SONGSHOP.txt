@@ -1,7 +1,7 @@
 
 Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
 As everybody knows, Reza Shiri is the favourite Iranian artist. Since we love Reza Shiri and his songs, we never download them for free. Reza Shiri’s songs must be purchased from authorised stores. However, what if there is not enough money to buy all the songs?
-There are NN songs (numbered 11 through NN) and M albums (numbered 1 through M) available. For each valid i, the i-th song has greatness vi, price pi and belongs to the album ai. For each valid i, the i-th album has price bi. If we buy an album, then all songs from this album count as bought. It is also possible to buy any songs individually.
+There are N songs (numbered 1 through N) and M albums (numbered 1 through M) available. For each valid i, the i-th song has greatness vi, price pi and belongs to the album ai. For each valid i, the i-th album has price bi. If we buy an album, then all songs from this album count as bought. It is also possible to buy any songs individually.
 Your task is simple ― given the budget P (the amount of money we have), calculate the maximum total greatness of songs we can buy. The total greatness is defined as the sum of greatness values of all distinct songs that are bought (either individually or as part of albums).
 Input
 

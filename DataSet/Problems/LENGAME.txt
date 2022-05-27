@@ -1,6 +1,6 @@
 
-Alice and Bob are given an array of length of NN. They decide to play a game with it.
-Initially, Alice randomly shuffles the array, and then Bob takes NN turns. In each turn, Bob chooses an index which he has not already chosen and then Alice reveals the number on that index to Bob. If this number is either the first number to be chosen or strictly larger than previously chosen numbers by Bob then he takes it and adds to his array else he throws it.
+Alice and Bob are given an array of length of N. They decide to play a game with it.
+Initially, Alice randomly shuffles the array, and then Bob takes N turns. In each turn, Bob chooses an index which he has not already chosen and then Alice reveals the number on that index to Bob. If this number is either the first number to be chosen or strictly larger than previously chosen numbers by Bob then he takes it and adds to his array else he throws it.
 You only know the initial unshuffled array and want to know the expected length of Bob's array at the end of the game.
 The final expected length can be represented as a fraction of the form PQ. You are required to print P⋅Q−1mod998244353.
 Input Format

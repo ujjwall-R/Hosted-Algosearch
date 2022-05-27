@@ -1,6 +1,6 @@
 
 Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
-As we all know, Chefland consists of NN cities (numbered 11 through N) connected by N−1 roads in such a way that each city is reachable from all other cities. In other words, the cities and roads form a tree. For each valid i, the i-th city's height above sea level is Ai.
+As we all know, Chefland consists of NN cities (numbered 11 through NN) connected by N−1 roads in such a way that each city is reachable from all other cities. In other words, the cities and roads form a tree. For each valid i, the i-th city's height above sea level is Ai.
 A path between two cities is said to be beautiful if the heights of the cities in the path first increase and then decrease. In other words, when we denote the sequence of cities the path passes through by x1,x2,…,xL, it is beautiful if Ax1<Ax2<…<Axp>…>AxL−1>AxL holds for some integer p (1≤p≤L).
 Chefina is planning a trip along a path in the tree. You should answer Q queries. In each query, you are given two cities x and y and you should tell Chefina if the simple path between these cities is beautiful.
 Input

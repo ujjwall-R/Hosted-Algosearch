@@ -1,6 +1,6 @@
 
 Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-You are given a tree with NN nodes (numbered 11 through NN), rooted at node 1. For each valid i, node i has a value ai written on it.
+You are given a tree with NN nodes (numbered 11 through N), rooted at node 1. For each valid i, node i has a value ai written on it.
 An undirected simple path between any two nodes u and v is said to be vertical if u=v or u is an ancestor of v or v is an ancestor of u. Let's define a vertical partition of the tree as a set of vertical paths such that each node belongs to exactly one of these paths.
 You are also given a sequence of N integers b1,b2,…,bN. A vertical partition is good if, for each of its paths, we can permute the values written on the nodes in this path, and this can be done in such a way that we reach a state where for each valid i, the value written on node i is bi.
 The difficulty of your task is described by a parameter S. If S=1, your task is only to determine whether at least one good vertical partition exists. If S=2, you are required to find the number of good vertical partitions modulo 1,000,000,007 (109+7).

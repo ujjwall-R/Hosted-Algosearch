@@ -4,7 +4,7 @@ Given  a line y=mx+cy=mx+c, and a set of NN points on Cartesian plane in the for
 Note : Do not consider those points which lie on the given line. 
 Input
 
-First line will contain T, number of testcases. Then the testcases follow. 
+First line will contain TT, number of testcases. Then the testcases follow. 
 For each test case, first line will contain three space separated integers N,m,c
 Next N lines will contain two space separated integer Xi , Yi
 

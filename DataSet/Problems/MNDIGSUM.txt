@@ -1,6 +1,6 @@
 
 Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-Let f(n,B)f(n,B) be the sum of digits of the integer nn when written in base BB.
+Let f(n,B)f(n,B) be the sum of digits of the integer nn when written in base B.
 More formally, if n=∞∑i=0aiBi where ai is an integer in the range [0,B−1], then f(n,B)=∞∑i=0ai.
 Given Q queries, each consisting of three integers n,l and r. Find the value of B corresponding to which f(n,B) is minimum for all l≤B≤r. If there are multiple such values, you can print any of them.
 Input Format

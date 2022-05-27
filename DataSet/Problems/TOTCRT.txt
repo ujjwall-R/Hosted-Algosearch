@@ -1,17 +1,17 @@
 
 Read problem statements in Mandarin Chinese, Russian, and Vietnamese as well.
-Codechef challenges have three divisions. In one challenge, there are N problems in each division, but some problems may be shared among multiple divisions. Each problem is uniquely identified by a code — a string containing only uppercase English letters. Each participant can only submit in one of the divisions.
-Chef wants to find the number of correct solutions, in total among all 3 divisions, for each problem. Given a list of N problem codes with the numbers of correct solutions for each problem in each division, find the total number of correct solutions for each problem and sort them in non-decreasing order.
+Codechef challenges have three divisions. In one challenge, there are NN problems in each division, but some problems may be shared among multiple divisions. Each problem is uniquely identified by a code — a string containing only uppercase English letters. Each participant can only submit in one of the divisions.
+Chef wants to find the number of correct solutions, in total among all 33 divisions, for each problem. Given a list of NN problem codes with the numbers of correct solutions for each problem in each division, find the total number of correct solutions for each problem and sort them in non-decreasing order.
 Input
 
-The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
-The first line of each test case contains a single integer N.
-N lines follow. For each valid i, the i-th of these lines contains a string S3,i followed by a space and an integer C3,i — the problem code and the number of correct solutions on the i-th problem in the third division.
-N more lines follow. For each valid i, the i-th of these lines contains a string S2,i followed by a space and an integer C2,i — the problem code and the number of correct solutions on the i-th problem in the second division.
-Finally, N more lines follow. For each valid i, the i-th of these lines contains a string S1,i followed by a space and an integer C1,i — the problem code and the number of correct solutions on the i-th problem in the first division.
+The first line of the input contains a single integer TT denoting the number of test cases. The description of TT test cases follows.
+The first line of each test case contains a single integer NN.
+NN lines follow. For each valid ii, the ii-th of these lines contains a string S3,iS3,i followed by a space and an integer C3,iC3,i — the problem code and the number of correct solutions on the ii-th problem in the third division.
+NN more lines follow. For each valid ii, the ii-th of these lines contains a string S2,iS2,i followed by a space and an integer C2,iC2,i — the problem code and the number of correct solutions on the ii-th problem in the second division.
+Finally, NN more lines follow. For each valid ii, the ii-th of these lines contains a string S1,iS1,i followed by a space and an integer C1,iC1,i — the problem code and the number of correct solutions on the ii-th problem in the first division.
 
 Output
-For each test case, let P be the number of distinct problems; you should print P space-separated integers — the number of solutions for each of these problems, sorted in non-decreasing order.
+For each test case, let PP be the number of distinct problems; you should print PP space-separated integers — the number of solutions for each of these problems, sorted in non-decreasing order.
 Constraints
 
 1≤T≤10

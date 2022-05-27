@@ -1,6 +1,6 @@
 
 Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
-You are given three integers NN, KK and X. Is it possible to find a sequence of non-negative integers A1,A2,…,AN such that the number of pairs of indices (i,j) (1≤i≤j≤N) satisfying Ai⊕Aj=X is equal to K? Here, ⊕ is the bitwise XOR operator.
+You are given three integers N, K and X. Is it possible to find a sequence of non-negative integers A1,A2,…,AN such that the number of pairs of indices (i,j) (1≤i≤j≤N) satisfying Ai⊕Aj=X is equal to K? Here, ⊕ is the bitwise XOR operator.
 Input
 
 The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.

@@ -1,6 +1,6 @@
 
 Today is your birthday. You have decided to give away candies to your friends. 
-You have N friends and M candies. Suppose the 1st friend has L buckets, 2nd has L+1 buckets, 3rd has L+2 buckets, and so on — in general, the ith friend has L+i−1 buckets. 
+You have NN friends and MM candies. Suppose the 1st friend has L buckets, 2nd has L+1 buckets, 3rd has L+2 buckets, and so on — in general, the ith friend has L+i−1 buckets. 
 You start distributing candies from the Nth friend and go towards the 1st friend. 
 For each friend, you put the maximum number of candies in each bucket such that all the buckets for that friend have an equal number of candies in them. Now, you take the remaining candies, move to the next friend, and repeat the above step. 
 Find the number of candies which will remain with you after visiting all your friends.

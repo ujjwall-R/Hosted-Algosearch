@@ -1,5 +1,5 @@
 
-Chef has a sequence of integers AA of length NN. He creates another sequence B of length 2⋅N using sequence A. Initially, B is empty. Chef performs the following process.
+Chef has a sequence of integers AA of length NN. He creates another sequence BB of length 2⋅N using sequence A. Initially, B is empty. Chef performs the following process.
 For each element Ai (1≤i≤N) of A:
 
 Choose any arbitrary integer k (Note that the value of k can be different for different elements).

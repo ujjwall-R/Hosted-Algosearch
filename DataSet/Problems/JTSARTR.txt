@@ -2,7 +2,7 @@
 Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
 Alice thought of a function FF, which takes an arbitrary array of integers A=(A1,A2,…,AM)A=(A1,A2,…,AM) as the only argument and is defined in the following way:
 
-Consider all pairs of subarrays (Ai,Ai+1,…,Aj)(Ai,Ai+1,…,Aj) and (Ak,Ak+1,…,Al)(Ak,Ak+1,…,Al) such that:
+Consider all pairs of subarrays (Ai,Ai+1,…,Aj)(Ai,Ai+1,…,Aj) and (Ak,Ak+1,…,Al) such that:
 1≤i≤j<k≤l≤M
 both subarrays are non-decreasing
 Aj≤Ak

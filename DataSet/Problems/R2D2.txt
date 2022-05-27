@@ -1,6 +1,6 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-The droid R2-D2 is travelling in space with a special mission. In space, there are NN planets (numbered 11 through N) and M bidirectional space highways. Each space highway connects two planets and in order to use it, R2-D2 needs to have a sufficiently high status level.
+The droid R2-D2 is travelling in space with a special mission. In space, there are NN planets (numbered 11 through NN) and M bidirectional space highways. Each space highway connects two planets and in order to use it, R2-D2 needs to have a sufficiently high status level.
 The droid’s mission consists of Q stages. In each stage, there are two planets x and y such that the droid should start the stage at planet x with some initial status level L (L≥0) and travel to planet y. For each valid i, when R2-D2 is at planet i (including the initial planet x), he may increase his status level by Ai; it is not allowed to increase the status level multiple times on the same planet in the same stage. Find the minimum value of L such that it is possible for R2-D2 to reach planet y or determine that it is impossible to reach planet y for any L.
 Note that the level R2-D2 has at the end of each stage is not carried over to the next stages (he may start the next stage with a lower initial status level).
 Input

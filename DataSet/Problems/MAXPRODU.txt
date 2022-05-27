@@ -1,6 +1,6 @@
 
 Read problems statements in Russian , Vietnamese, Hindi, Mandarin chinese and Bengali as well.
-You are given two integers NN and KK. Consider all ways to represent NN as the sum of exactly KK distinct positive integers x1,x2,…,xKx1,x2,…,xK — in other words, xi>0xi>0 for each valid ii, xi≠xj for each valid i≠j and x1+x2+…+xK=N should hold.
+You are given two integers NN and KK. Consider all ways to represent N as the sum of exactly K distinct positive integers x1,x2,…,xK — in other words, xi>0 for each valid i, xi≠xj for each valid i≠j and x1+x2+…+xK=N should hold.
 You have to find the maximum possible value of the product (x21−x1)⋅(x22−x2)⋅…⋅(x2K−xK). Because this number could be huge, compute it modulo 109+7. If N cannot be represented as the sum of any K distinct positive integers, output −1 instead.
 Input
 

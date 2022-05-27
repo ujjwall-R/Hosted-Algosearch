@@ -1,6 +1,6 @@
 
 Every Story has a Endgame . But ,there are some untold stories.  This is one of those stories.
-Captain borrowed SS Infinity Stones from their respective timelines to defeat Archon ( Evil Omni King of Anime War). Now Captain wants to return all the infinity stones in their respective timelines. Let us denote dimensions of  time and space  as xx and yy coordinate. 
+Captain borrowed SS Infinity Stones from their respective timelines to defeat Archon ( Evil Omni King of Anime War). Now Captain wants to return all the infinity stones in their respective timelines. Let us denote dimensions of  time and space  as xx and y coordinate. 
 Captain can only move forward either in time or in space to move into another timeline.
 Captain must visit all coordinates  which consist of an infinity stone . Two timelines are considered to be different if they have different Time and Space Dimensions. He cannot go back in time or space.
 Their are K timelines in which Thanos lived . In these timelines, Thanos is inevitable. If Captain visits either of these timelines, then Thanos will kill the Captain. So Captain has to avoid these timelines.  

@@ -1,6 +1,6 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-You are given NN sets of integers A1,A2,…,ANA1,A2,…,AN. For each valid ii, let's denote the elements of the set Ai by {ci,1,ci,2,…,ci,|Ai|}.
+You are given N sets of integers A1,A2,…,AN. For each valid i, let's denote the elements of the set Ai by {ci,1,ci,2,…,ci,|Ai|}.
 Find the number of ways to choose a sequence (a1,a2,…,aN) such that:
 
 ai∈Ai for each valid i

@@ -1,6 +1,6 @@
 
 Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
-Let's define a function P(A)P(A) for a sequence AA as the number of ways to divide AA into contiguous subsequences such that each element of A belongs to exactly one of these subsequences and the sum of elements of each subsequence is between L and R inclusive.
+Let's define a function P(A)P(A) for a sequence AA as the number of ways to divide A into contiguous subsequences such that each element of A belongs to exactly one of these subsequences and the sum of elements of each subsequence is between L and R inclusive.
 For each integer n between 1 and N inclusive, solve the following problem: Consider a random sequence A with length n where each element is an integer between 1 and K chosen uniformly randomly and independently. Find the expected value of P(A).
 For each valid n, it can be proved that the expected value can be expressed as a fraction P/Q, where P and Q are positive integers and Q is coprime with 998,244,353. You should compute P⋅Q−1 modulo 998,244,353, where Q−1 is the multiplicative inverse of Q modulo 998,244,353.
 Input

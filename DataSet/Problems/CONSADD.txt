@@ -1,6 +1,6 @@
 
 Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-You are given two matrices AA and BB, each with RR rows (numbered 11 through R) and C columns (numbered 1 through C). Let's denote an element of A or B in row i and column j by Ai,j or Bi,j respectively.
+You are given two matrices AA and BB, each with RR rows (numbered 1 through R) and C columns (numbered 1 through C). Let's denote an element of A or B in row i and column j by Ai,j or Bi,j respectively.
 You are also given an integer X. You may perform the following operation on A any number of times:
 
 Choose an integer v.

@@ -1,5 +1,5 @@
 
-You’re given a tree with NN nodes (where each node ii has a value AiAi) and Q queries in the form u v. The answer to each query is the XOR of value of nodes on the shortest path from node u to v.
+You’re given a tree with N nodes (where each node i has a value Ai) and Q queries in the form u v. The answer to each query is the XOR of value of nodes on the shortest path from node u to v.
 Input
 
 First line will contains a single integer T, number of test cases.

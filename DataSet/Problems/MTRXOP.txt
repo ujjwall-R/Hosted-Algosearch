@@ -1,6 +1,6 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-Chef loves to play with matrices. One day in the kitchen, he found the following problem in his cookbook: You are given a matrix of integers with 3 rows and 3 columns (both rows and columns are numbered 1,2,3) and a target matrix, also with 3 rows and 3 columns. You should transform the initial matrix into the target matrix by performing N operations.
+Chef loves to play with matrices. One day in the kitchen, he found the following problem in his cookbook: You are given a matrix of integers with 33 rows and 33 columns (both rows and columns are numbered 1,2,3) and a target matrix, also with 3 rows and 3 columns. You should transform the initial matrix into the target matrix by performing N operations.
 Each operation is specified by parametres A, X, D, S and corresponds to cyclically shifting a row or a column of the matrix. Valid operations must satisfy 1≤X≤3 and 1≤A,D,S≤2. There are four types of operations:
 
 A=1 and D=1: shift row X to the left, i.e. move the first element of this row to the end, S times

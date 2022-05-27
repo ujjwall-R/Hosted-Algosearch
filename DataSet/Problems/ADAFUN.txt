@@ -1,6 +1,6 @@
 
 Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
-Ada has a set of N non-negative integers S={x1,x2,…,xN}. She defined the function W as follows:
+Ada has a set of NN non-negative integers S={x1,x2,…,xN}S={x1,x2,…,xN}. She defined the function WW as follows:
 
 W({})=0.
 If S={a}, then W(S)=a.

@@ -1,6 +1,6 @@
 
 Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-You are given a string AA of length NN, consisting of zeroes and ones. You want to partition it into blocks consisting of consecutive indices such that each block has an odd sum and has length at most mm. For each m from 1 to N, find the minimum number of blocks required, or report that it is impossible.
+You are given a string AA of length NN, consisting of zeroes and ones. You want to partition it into blocks consisting of consecutive indices such that each block has an odd sum and has length at most m. For each m from 1 to N, find the minimum number of blocks required, or report that it is impossible.
 Input
 
 The first line contains an integer T, the number of test cases. Each test case contains two lines:

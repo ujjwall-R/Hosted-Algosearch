@@ -3,8 +3,8 @@ Chef is working on his swap-based sorting algorithm for strings.
 Given a string SS of length NN, he wants to know whether he can sort the string using his algorithm.
 According to the algorithm, one can perform the following operation on string SS any number of times:
 
-Choose some index i (1≤i≤N) and swap the ith character from the front and the ith character from the back.
-More formally, choose an index i and swap Si and S(N+1−i).
+Choose some index ii (1≤i≤N)(1≤i≤N) and swap the ithith character from the front and the ithith character from the back.
+More formally, choose an index ii and swap SiSi and S(N+1−i)S(N+1−i).
 
 For example, d_cba_ can be converted to a_cbd_ using one operation where i=1.
 Help Chef find if it is possible to sort the string using any (possibly zero) number of operations.

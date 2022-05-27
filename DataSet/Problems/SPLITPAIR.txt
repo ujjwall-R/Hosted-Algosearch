@@ -1,5 +1,5 @@
 
-You are given a positive integer NN. You have to split each digit of NN into either of two non-empty subsequences A or B.  
+You are given a positive integer NN. You have to split each digit of NN into either of two non-empty subsequences AA or B.  
 For example, if N=104, some possible values of (A,B) can be (10,4),(14,0) and (1,4). Note that, after separating the digits into A and B, these subsequences are considered as positive integers and thus leading zeros can be omitted.
 Let us define a function F(X,Y)=(X+Y)%2. Find out whether it is possible to find two non-empty subsequences A and B formed out of N such that F(A,B)=0.
 Input Format

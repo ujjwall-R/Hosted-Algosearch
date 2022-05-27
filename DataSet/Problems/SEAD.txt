@@ -1,6 +1,6 @@
 
 Read problems statements in Mandarin Chinese  and Russian.
-Sereja has an array consisting of n integers a1 ≤a2 ≤…≤an. Based on this array, he has to answer m queries represented by pairs integers t and d. 
+Sereja has an array consisting of nn integers a1 ≤a2 ≤…≤ana1 ≤a2 ≤…≤an. Based on this array, he has to answer mm queries represented by pairs integers t and d. 
 The answer for a query is the smallest integer i for which there exist some k (i ≤ k) such that ai + d ≥ ai + 1, ai + 1 + d ≥ ai + 2, …, ak − 1 + d≥ ak, ak ≤ t and ak+1 > t (if it exists).
 Help Sereja find the answer for each query. 
 Input

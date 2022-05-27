@@ -1,6 +1,6 @@
 
 Read problems statements in Mandarin Chinese, Russian, and Bengali as well.
-Two arrays AA and BB of size NN are equivalent if for every (i,j) (1≤i<j≤N), Bi=Bj if and only if Ai=Aj. For example, [1,2,2], [10,11,11], [5,1,1] are equivalent, while [1,2,3,1], [10,20,10,10] are not.
+Two arrays AA and BB of size N are equivalent if for every (i,j) (1≤i<j≤N), Bi=Bj if and only if Ai=Aj. For example, [1,2,2], [10,11,11], [5,1,1] are equivalent, while [1,2,3,1], [10,20,10,10] are not.
 There is a hidden array of N integers, where the elements are numbered from A1,A2,…,AN. Your task is to guess any array which is equivalent to the hidden array by asking the following query at most Q times. The elements of the guessed array must be within the range [1,109].
 In each query, you give a subset of indices {i1,i2,…,ik} in the array i.e some subset of {1,2,…,N} and the judge returns the frequency of most frequent element among {Ai1,Ai2,…,Aik}. Note that the indices must be distinct and the order doesn't matter.
 For example, consider the array [10,3,1,10,1,1,3].

@@ -3,7 +3,7 @@ You are given an array AA of length NN.
 You can perform the following operation on the array, as long as it has more than one element:
 
 Choose any two adjacent elements, remove them from the array and insert their sum at that position.
-Formally, if the current length of the array is |A||A|, you can choose an index 1≤i<|A|, and transform the array into [A1,A2,…,Ai−1,Ai+Ai+1,Ai+2,…,AN].
+Formally, if the current length of the array is |A|, you can choose an index 1≤i<|A|, and transform the array into [A1,A2,…,Ai−1,Ai+Ai+1,Ai+2,…,AN].
 
 Note that after each operation, the length of array decreases by exactly 1.
 Print the minimum number of operations to be applied on array A such that all the elements in the resulting array are equal. See sample explanation for more details.

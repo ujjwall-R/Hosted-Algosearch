@@ -1,6 +1,6 @@
 
 Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
-Chef went to the store in order to buy one can of coke. In the store, they offer NN cans of coke (numbered 11 through N). For each valid i, the current temperature of the i-th can is Ci and its price is Pi.
+Chef went to the store in order to buy one can of coke. In the store, they offer NN cans of coke (numbered 11 through NN). For each valid i, the current temperature of the i-th can is Ci and its price is Pi.
 After buying a can of coke, Chef wants to immediately start walking home; when he arrives, he wants to immediately drink the whole can. It takes Chef M minutes to get home from the store.
 The ambient temperature outside is K. When a can of coke is outside, its temperature approaches the ambient temperature. Specifically, if its temperature is t at some point in time:
 

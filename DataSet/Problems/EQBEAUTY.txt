@@ -1,8 +1,8 @@
 
 Read problem statements in Mandarin Chinese, Russian, and Vietnamese as well.
 The beauty of an (non-empty) array of integers is defined as the difference between its largest and smallest element.
-For example, the beauty of the array [2,3,4,4,6][2,3,4,4,6] is 6−2=46−2=4.
-An array AA is said to be good if it is possible to partition the elements of A into two non-empty arrays B1 and B2  such that 
+For example, the beauty of the array [2,3,4,4,6] is 6−2=4.
+An array A is said to be good if it is possible to partition the elements of A into two non-empty arrays B1 and B2  such that 
 
 B1 and B2 have the same beauty.
 Each element of array A should be in exactly one array: either in B1 or in B2.

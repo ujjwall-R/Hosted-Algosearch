@@ -1,9 +1,9 @@
 
 Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
 Two drunken players Alice and Bob are playing a modified version of Tic-Tac-Toe.
-Initially, there is a N×MN×M empty grid.
+Initially, there is a N×M empty grid.
 Alice and Bob take alternate turns starting with Alice. In her turn, Alice chooses an empty cell on the board and puts a "A" on the chosen cell. In Bob's turn, he chooses an empty cell and puts a "B" on the chosen cell.
-The player who first gets any K×KK×K subgrid completely filled with his/her initial wins the game. By a K×KK×K subgrid, we mean the intersection of K consecutive rows and K consecutive columns. The players do not stop making turns after one of them wins and they play all N⋅M turns until the grid is filled.
+The player who first gets any K×K subgrid completely filled with his/her initial wins the game. By a K×K subgrid, we mean the intersection of K consecutive rows and K consecutive columns. The players do not stop making turns after one of them wins and they play all N⋅M turns until the grid is filled.
 You are given the sequence of moves played by each player (The cell selected by the player in his/her turn). You have to output the winner of the game or report that there is no winner.
 Input
 

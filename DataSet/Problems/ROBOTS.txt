@@ -3,7 +3,7 @@ Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Be
 Chefland is a big city which consists of infinite number of junctions on a 2D plane. The junctions are depicted below and they form a hexagonal grid — they satisfy the following conditions:
 
 Two of the junctions have coordinates (0,0)(0,0) and (1,0)(1,0).
-Each junction JJ is connected by line segments with six other junctions. These junctions are the vertices of a regular hexagon with side length 1 and their distances from J are also all equal to 1.
+Each junction J is connected by line segments with six other junctions. These junctions are the vertices of a regular hexagon with side length 1 and their distances from J are also all equal to 1.
 
 
 Chef created a robot that can traverse the junctions. Initially, it is in some junction and oriented towards another junction which is connected to it by a line segment. The robot accepts a string of instructions — decimal digits 0 through 5. It executes the instructions one by one and stops after executing the final instruction. When the robot executes an instruction denoted by a digit d, it first rotates by 60⋅d degrees counterclockwise and then moves 1 unit forward, to the junction it is oriented towards.

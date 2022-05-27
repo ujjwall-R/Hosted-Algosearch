@@ -1,5 +1,5 @@
 
-You are given an undirected tree of NN nodes. A positive weight WiWi is assigned to the node i for all 1≤i≤N.
+You are given an undirected tree of NN nodes. A positive weight WiWi is assigned to the node ii for all 1≤i≤N.
 For all 1≤j≤N−1, the j-th edge connects the nodes uj and vj, and has a restriction value of Rj.
 An array A1,A2,⋯,AN consisting of N non-negative integers is called valid if:
 

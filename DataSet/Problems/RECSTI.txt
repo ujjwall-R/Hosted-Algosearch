@@ -1,5 +1,5 @@
 
-MoEngage has a bundle of NN sticks. The ithith stick has a length LiLi meters. 
+MoEngage has a bundle of NN sticks. The ithith stick has a length Li meters. 
 Find the minimum number of sticks (of any length) you need to add to the bundle such that you can construct some rectangles where each stick of the bundle belongs to exactly one rectangle and each side of a rectangle should be formed with exactly one stick.
 Input Format
 

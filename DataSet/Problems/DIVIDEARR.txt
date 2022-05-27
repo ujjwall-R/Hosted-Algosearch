@@ -1,5 +1,5 @@
 
-Given a sequence XX of length MM, f(X)f(X) is defined as f(X)=∑M−1i=1|Xi+1−Xi|. 
+Given a sequence X of length M, f(X) is defined as f(X)=∑M−1i=1|Xi+1−Xi|. 
 Specifically, if M=1, then f(X)=0.
 For e.g., f([3,1,7,2])=|1−3|+|7−1|+|2−7|=13
 JJ has an array A of length N. He wants to divide the array A into two subsequences P and Q (possibly empty) such that the value of f(P)+f(Q) is as large as possible. (Note that each Ai must belong to either subsequence P or subsequence Q).

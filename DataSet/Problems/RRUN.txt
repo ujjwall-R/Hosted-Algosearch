@@ -1,8 +1,8 @@
 
 "I hide in plain sight, just as you".
-Gus Fring has earned a huge profit from Los Pollos Hermanos and he wishes to celebrate. He loves watching horse-riding, hence he bought N horses.
+Gus Fring has earned a huge profit from Los Pollos Hermanos and he wishes to celebrate. He loves watching horse-riding, hence he bought NN horses.
 One day he organizes a horse-riding competition to celebrate the deal with Don Eladio.
-There are N horses taking part in the competition with speeds of A1, A2, ..., AN respectively. It is given that all speeds are distinct.
+There are NN horses taking part in the competition with speeds of AA1, A2, ..., AN respectively. It is given that all speeds are distinct.
 Multiple races are being conducted and it is not mandatory for each horse to participate in every race.
 For the ith horse, find the number of subsets with size ≥ 2 such that if a race were to be conducted between horses in this subset then the ith horse would finish in the top three.
 For subsets of size 2 the runner should finish either 1st or 2nd. There is no 3rd position when the size of the subset is 2.

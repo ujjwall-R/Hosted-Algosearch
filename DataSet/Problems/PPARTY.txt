@@ -12,7 +12,7 @@ For each test case, output a single line containing "YES" if the condition given
 Constraints
 
 1≤T≤10001≤T≤1000
-1≤len(S)≤10001≤len(S)≤1000
+1≤len(S)≤1000
 
 Subtasks
 

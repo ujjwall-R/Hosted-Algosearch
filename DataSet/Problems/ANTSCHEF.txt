@@ -1,7 +1,7 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
 Chef has been researching ant colonies for many years and finally discovered all their secrets.
-An ant colony consists of N distinct lines (numbered 1 through N) that pass through a point O, which is the queen's home. For each valid i, there are Mi ants on the i-th line.
+An ant colony consists of NN distinct lines (numbered 11 through NN) that pass through a point O, which is the queen's home. For each valid i, there are Mi ants on the i-th line.
 For each valid i and j, the j-th ant on the i-th line initially has a non-zero coordinate Xi,j with the following meaning:
 
 The distance of this ant from O is |Xi,j|.

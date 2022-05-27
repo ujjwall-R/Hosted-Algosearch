@@ -1,5 +1,5 @@
 
-Rick has set out on a space journey to destroy asteroids. He has identified NN different groups (numbered from 11 to NN) of Asteroids. The size of groups G1, G2, …., Gn are given.
+Rick has set out on a space journey to destroy asteroids. He has identified N different groups (numbered from 1 to N) of Asteroids. The size of groups G1, G2, …., Gn are given.
 Using his superpowers, he can destroy exactly 1 asteroid from K different groups in 1 minute. He doesn't want to waste his superpower so he will stop once there are less than K groups available.
 You want to watch him destroy these asteroids for as long as possible. Can you find the maximum number of minutes you can keep him busy?
 Input:

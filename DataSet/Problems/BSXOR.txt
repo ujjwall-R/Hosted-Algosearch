@@ -1,5 +1,5 @@
 
-Chef has a binary string S of length N. He wonders if it is possible to divide S into exactly K non-empty substrings such that each Si belongs to exactly one substring and the XOR of each substring is the same. Can you help Chef to determine if it is possible to do so?
+Chef has a binary string SS of length NN. He wonders if it is possible to divide SS into exactly K non-empty substrings such that each Si belongs to exactly one substring and the XOR of each substring is the same. Can you help Chef to determine if it is possible to do so?
 Note: XOR of substring SL⋯R is defined as: XOR(SL⋯R)=SL⊕SL+1⊕⋯⊕SR.
 Here, ⊕ denotes the bitwise XOR operation.
 Input Format

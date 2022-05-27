@@ -1,11 +1,11 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
 Vivek believes that this problem is the hardest problem ever and no one can solve it. Please prove him wrong.
-You are given a sequence A1,A2,…,ANA1,A2,…,AN and MM intervals [L1,R1],[L2,R2],…,[LM,RM][L1,R1],[L2,R2],…,[LM,RM]. For any subset SS of these intervals:
+You are given a sequence A1,A2,…,ANA1,A2,…,AN and M intervals [L1,R1],[L2,R2],…,[LM,RM]. For any subset S of these intervals:
 
-If SS is non-empty, let's define L=maxi∈S(Li)L=maxi∈S(Li) and R=mini∈S(Ri)R=mini∈S(Ri).
-The set SS is disjoint if SS is empty or L>RL>R. Otherwise, the intersection of the intervals from this set is the interval [L,R][L,R].
-If SS is not disjoint, its value is ∑Rj=L(j−L+1)⋅Aj∑Rj=L(j−L+1)⋅Aj.
+If S is non-empty, let's define L=maxi∈S(Li) and R=mini∈S(Ri).
+The set S is disjoint if S is empty or L>R. Otherwise, the intersection of the intervals from this set is the interval [L,R].
+If S is not disjoint, its value is ∑Rj=L(j−L+1)⋅Aj.
 
 Find the maximum of values of all non-disjoint subsets of the given intervals.
 Input

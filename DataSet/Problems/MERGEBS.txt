@@ -1,5 +1,5 @@
 
-You have two binary strings AA and BB, both of length NN. You have to merge both the binary strings to form a new binary string C of length 2⋅N. The relative order of characters in the original binary strings A and B should not change in the binary string C.
+You have two binary strings A and B, both of length N. You have to merge both the binary strings to form a new binary string C of length 2⋅N. The relative order of characters in the original binary strings A and B should not change in the binary string C.
 For example, if A=01011 and B=10100, one possible way to merge them to form C is: C=0101101100.
 Minimize the number of inversions in the merged binary string C.
 As a reminder, a pair of indices (i,j) is an inversion for binary string C if and only if 1≤i<j≤|C|, Ci=1 and Cj=0.

@@ -1,5 +1,5 @@
 
-Given an array a of n integers. You need to swap adjacent numbers exactly k times. The goal is to minimise the number of inversions after exactly k swaps.
+Given an array aa of nn integers. You need to swap adjacent numbers exactly kk times. The goal is to minimise the number of inversions after exactly k swaps.
 An inversion is a pair (i,j) such that i<j and ai>aj
 Input
 

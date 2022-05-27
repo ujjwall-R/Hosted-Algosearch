@@ -1,6 +1,6 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-Chef owns a fast food shop that is currently located in a city called Chefland. He is planning to move his shop to a bigger city called Chefabad. There are NN consecutive days (numbered 11 through NN) such that the move can be done before day 1, after day N or between any two consecutive days. Moving the shop takes zero time. Chef wants to time the move in a way thay maximises his profit during these N days.
+Chef owns a fast food shop that is currently located in a city called Chefland. He is planning to move his shop to a bigger city called Chefabad. There are N consecutive days (numbered 1 through N) such that the move can be done before day 1, after day N or between any two consecutive days. Moving the shop takes zero time. Chef wants to time the move in a way thay maximises his profit during these N days.
 For each i (1≤i≤N), we know that if Chef's shop is in Chefland on the i-th day, he earns Ai coins, while if it is in Chefabad on this day, he earns Bi coins. Find the maximum profit Chef can make if he optimally chooses the time when the shop should move. Note that once the shop has moved to Chefabad, it cannot return to Chefland.
 Input
 

@@ -1,5 +1,5 @@
 
-A number is said to be a palindrome if it remains the same when it is read backwards. Eg. 1202112021 is pallindrome while 2121 is not A number is called total-palindromic if it contains a palindrome with odd length greater than 1 and an even palindrome as a substring.
+A number is said to be a palindrome if it remains the same when it is read backwards. Eg. 12021 is pallindrome while 21 is not A number is called total-palindromic if it contains a palindrome with odd length greater than 1 and an even palindrome as a substring.
 For example, the number 22676 is total-palindromic whereas the number 101 is not because it contains the palindrome of odd length 676 and even length 22. While 101 does not contain an even palindrome as a substring.
 You are given two numbers a, b. Output the number of total-palindromic numbers which lie in the range (a,b] i.e set {a+1,a+2,....b}
 Input

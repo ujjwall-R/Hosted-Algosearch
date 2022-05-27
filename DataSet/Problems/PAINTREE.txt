@@ -1,6 +1,6 @@
 
 Read problems statements in Russian, Vietnamese, Hindi, Mandarin chinese and Bengali as well.
-You are given a tree with NN nodes numbered 1 through N. Each node is initially colored white. We perform the following process on this tree:
+You are given a tree with N nodes numbered 1 through N. Each node is initially colored white. We perform the following process on this tree:
 
 choose an unordered pair of vertices (a,b) uniformly at random (i.e. each pair has an equal probability of being picked)
 if there is a black node on the shortest path between a and b (including a and b), the process stops

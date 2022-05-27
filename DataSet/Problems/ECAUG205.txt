@@ -1,5 +1,5 @@
 
-Chef is a very kind-hearted fellow and he wants to host a charity event and donate his notebooks to the children who attend that event. Chef has a set of NN  distinct types of notebooks which are numbered from 11 to NN with each book containing  Ai(1<=i<=n) number of pages respectively. The event witnessed a group of K children and now its the chef task to distribute his notebooks among them.
+Chef is a very kind-hearted fellow and he wants to host a charity event and donate his notebooks to the children who attend that event. Chef has a set of N  distinct types of notebooks which are numbered from 1 to N with each book containing  Ai(1<=i<=n) number of pages respectively. The event witnessed a group of K children and now its the chef task to distribute his notebooks among them.
 Chef wants to maximise the number of pages in each notebook so that the children get notebooks as thick as possible. Chef wants you to help him in splitting the notebooks so that the children exit the event happily.
 Note:
 

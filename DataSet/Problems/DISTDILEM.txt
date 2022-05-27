@@ -1,7 +1,7 @@
 
 You are given an array AA of NN integers. You can do the following two types of operations any (possibly zero) number of times:
 
-Pick two indices i and j (1≤i,j≤|A|,i≠j). Change Aj:=Aj+Ai and remove the ith element from the array.
+Pick two indices ii and jj (1≤i,j≤|A|,i≠j). Change Aj:=Aj+Ai and remove the ith element from the array.
 Pick an index i (1≤i≤|A|). Split Ai into two positive integers X and Y such that X+Y=Ai. Remove the ith element from the array and append elements X and Y to the array.
 
 Find the maximum number of distinct elements present in the array after performing any number of operations of the above two types.

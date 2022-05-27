@@ -1,24 +1,24 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-You are given a connected graph with NN vertices (numbered 11 through NN) and N−1 bidirectional edges. Also, you are given a sequence K1,K2,…,KN.
-Let's denote the distance between vertices u and v by d(u,v). Next, for each valid i, let's define Di as the maximum integer such that there are at least Ki vertices v with d(i,v)>Di. (It can be proven that such integers exist for the given constraints.)
-Your task is to find the values of D1,D2,…,DN.
+You are given a connected graph with NN vertices (numbered 11 through NN) and N−1N−1 bidirectional edges. Also, you are given a sequence K1,K2,…,KNK1,K2,…,KN.
+Let's denote the distance between vertices uu and vv by d(u,v)d(u,v). Next, for each valid ii, let's define DiDi as the maximum integer such that there are at least KiKi vertices vv with d(i,v)>Did(i,v)>Di. (It can be proven that such integers exist for the given constraints.)
+Your task is to find the values of D1,D2,…,DND1,D2,…,DN.
 Input
 
-The first line of the input contains a single integer N.
-The second line contains N space-separated integers K1,K2,…,KN.
-Each of the next N−1 lines contains two space-separated integeres u and v denoting that vertices u and v are connected by an edge.
+The first line of the input contains a single integer NN.
+The second line contains NN space-separated integers K1,K2,…,KNK1,K2,…,KN.
+Each of the next N−1N−1 lines contains two space-separated integeres uu and vv denoting that vertices uu and vv are connected by an edge.
 
 Output
-Print a single line containing N space-separated integers D1,D2,…,DN.
+Print a single line containing NN space-separated integers D1,D2,…,DND1,D2,…,DN.
 Constraints
 
-1≤N≤105
-1≤Ki≤N−1 for each valid i
-1≤u,v≤N
+1≤N≤1051≤N≤105
+1≤Ki≤N−11≤Ki≤N−1 for each valid ii
+1≤u,v≤N1≤u,v≤N
 
 Subtasks
-Subtask #1 (20 points): 1≤N≤103
+Subtask #1 (20 points): 1≤N≤1031≤N≤103
 Subtask #2 (80 points): original constraints
 
                         Sample Input 1

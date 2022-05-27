@@ -4,7 +4,7 @@ Today, Chef decided to cook some delicious meals from the ingredients in his kit
 In the cauldron, the letters of the strings representing the ingredients completely mixed, so each letter appears in the cauldron as many times as it appeared in all the strings in total; now, any number of times, Chef can take one letter out of the cauldron (if this letter appears in the cauldron multiple times, it can be taken out that many times) and use it in a meal. A complete meal is the string "codechef". Help Chef find the maximum number of complete meals he can make!
 Input
 
-The first line of the input contains a single integer TT denoting the number of test cases. The description of T test cases follows.
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
 The first line of each test case contains a single integer N.
 N lines follow. For each i (1≤i≤N), the i-th of these lines contains a single string Si.
 

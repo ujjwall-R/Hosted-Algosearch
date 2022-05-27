@@ -1,8 +1,8 @@
 
-Chef is planning to buy a new car for his birthday. After a long search, he is left with 22 choices:
+Chef is planning to buy a new car for his birthday. After a long search, he is left with 2 choices:
 
-Car 1: Runs on diesel with a fuel economy of x1x1 km/l
-Car 2: Runs on petrol with a fuel economy of x2x2 km/l
+Car 1: Runs on diesel with a fuel economy of x1 km/l
+Car 2: Runs on petrol with a fuel economy of x2 km/l
 
 Chef also knows that
 

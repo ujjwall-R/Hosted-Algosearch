@@ -2,9 +2,9 @@
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
 Consider the following operations on a triple of integers. In one operation, you should:
 
-Choose an integer dd and an arithmetic operation ― either addition or multiplication.
+Choose an integer d and an arithmetic operation ― either addition or multiplication.
 Choose a subset of elements of the triple.
-Apply the arithmetic operation to each of the chosen elements, i.e. either add dd to each of them or multiply each of them by dd.
+Apply the arithmetic operation to each of the chosen elements, i.e. either add d to each of them or multiply each of them by d.
 
 For example, if we have a triple (3,5,7), we may choose to add 3 to the first and third element, and we get (6,5,10) using one operation.
 You are given an initial triple (p,q,r) and a target triple (a,b,c). Find the minimum number of operations needed to transform (p,q,r) into (a,b,c).

@@ -1,7 +1,7 @@
 
 Read problem statement in Mandarin chinese and Vietnamese.
 Suzumo is the coach of the ChefLand OI team. Physical condition is very important in any olympiad, so he wants to make the children run a bit as a warmup.
-The team consists of NN children numbered 11 through N standing at some positions on the x-axis. For each valid i, the initial x-coordinate of the i-th kid is xi, the running velocity of the i-th kid is constant and equal to vi.
+The team consists of NN children numbered 11 through NN standing at some positions on the x-axis. For each valid i, the initial x-coordinate of the i-th kid is xi, the running velocity of the i-th kid is constant and equal to vi.
 Suzumo wants to assign a running direction (left or right, i.e. in the direction of decreasing or increasing x-coordinate) to each kid; the children start running at time 0 in the assigned directions. Afterwards, Suzumo will measure the smallest time t at which some kid passes another one. Help Suzumo compute the maximum time t if he can assign the directions arbitrarily!
 Note: Child i passes child j at time tij if their coordinates satisfy xi<xj at any time t<tij and xi>xj at any time t>tij, or if they satisfy xi>xj at any time t<tij and xi<xj at any time t>tij.
 Input

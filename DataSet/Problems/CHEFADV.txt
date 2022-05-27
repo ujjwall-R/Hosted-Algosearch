@@ -1,7 +1,7 @@
 
 Read problems statements Hindi ,Bengali , Mandarin chinese , Russian and Vietnamese as well.
 Mysterious Chefland… Recently, Chef realised that Discuss, the educational system of Chefland, is out of date. Therefore, he is trying to find ways to update the infrastructure in the country. One possible way is to move all materials from Discuss to Discourse.
-Chef will have access to Discourse if his knowledge and power become exactly equal to N and M respectively. Initially, he has power 1 and knowledge 1.
+Chef will have access to Discourse if his knowledge and power become exactly equal to NN and MM respectively. Initially, he has power 11 and knowledge 1.
 Chef can perform actions of the following types to improve his skills:
 
 solve a problem — increase his knowledge by X

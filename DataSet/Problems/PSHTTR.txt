@@ -1,6 +1,6 @@
 
 Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
-There is a castle which can be described as an undirected tree with NN vertices and N−1N−1 edges. Each edge has a magic number CC.
+There is a castle which can be described as an undirected tree with N vertices and N−1 edges. Each edge has a magic number C.
 When a group of tourists visit the castle, they are interested in a path between vertices U and V. They think that an edge is interesting if its magic number is ≤K. The total attractiveness of the path is the xor of all interesting edges on it.
 Given M groups of tourists, find the total attractiveness of the path for each group.
 Input

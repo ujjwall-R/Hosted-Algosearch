@@ -1,6 +1,6 @@
 
 Read problems statements in Mandarin chinese, Russian  and Vietnamese as well.
-Nazik gave Batman a tree with N vertices (numbered 1 through N). There are some robbers in the tree; of course, Batman wants to catch the robbers.
+Nazik gave Batman a tree with NN vertices (numbered 11 through NN). There are some robbers in the tree; of course, Batman wants to catch the robbers.
 Initially, Batman is in a vertex s and his power is equal to p. During each of the next M seconds, the following process happens:
 
 A robber with power r runs from a vertex x straight to vertex y.

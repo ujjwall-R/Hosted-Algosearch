@@ -16,7 +16,7 @@ Constraints
 
 1≤T≤101≤T≤10
 1≤n≤101≤n≤10
-1≤A[i]≤1000
+1≤A[i]≤10001≤A[i]≤1000
 0≤i≤(n−1)
 
 Sample Input:

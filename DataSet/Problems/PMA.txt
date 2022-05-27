@@ -1,7 +1,7 @@
 
 Chef has an array AA of length NN. He defines the alternating sum of the array as:
 
-S=|A1|−|A2|+|A3|−|A4|+…(−1)N−1⋅|AN|
+S=|A1|−|A2|+|A3|−|A4|+…(−1)N−1⋅|AN|S=|A1|−|A2|+|A3|−|A4|+…(−1)N−1⋅|AN|
 
 Chef is allowed to perform the following operation on the array at most once:
 

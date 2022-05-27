@@ -1,7 +1,7 @@
 
 Read problems statements in Mandarin Chinese, Vietnamese, and Bengali as well.
 Chef is trying to make his birthday party adventurous. He recently heard about escape the room games, so he wants to prepare his own version of such a game.
-First, Chef will lock his friends in the root of a full binary tree with depth hh, i.e. with 2h+1−12h+1−1 nodes (numbered 1 through 2h+1−1). The root has number 1, but the other nodes may be numbered arbitrarily. His friends can only escape this tree by reaching a special leaf node. They do not have any other information about the structure of the tree or the special node.
+First, Chef will lock his friends in the root of a full binary tree with depth h, i.e. with 2h+1−1 nodes (numbered 1 through 2h+1−1). The root has number 1, but the other nodes may be numbered arbitrarily. His friends can only escape this tree by reaching a special leaf node. They do not have any other information about the structure of the tree or the special node.
 The friends need to find the number of the special node. In order to do that, they may ask at most 2h+1 queries of the following two types:
 
 Choose a node x. Chef's response to this query is the distance between node x and the special node.

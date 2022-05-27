@@ -1,6 +1,6 @@
 
 Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
-You are given two points P and Q and an opaque sphere in a three-dimensional space. The point P is not moving, while Q is moving in a straight line with constant velocity. You are also given a direction vector d with the following meaning: the position of Q at time t is Q(t)=Q(0)+d⋅t, where Q(0) is the initial position of Q.
+You are given two points PP and QQ and an opaque sphere in a three-dimensional space. The point PP is not moving, while Q is moving in a straight line with constant velocity. You are also given a direction vector d with the following meaning: the position of Q at time t is Q(t)=Q(0)+d⋅t, where Q(0) is the initial position of Q.
 It is guaranteed that Q is not visible from P initially (at time t=0). It is also guaranteed that P and Q do not touch the sphere at any time.
 Find the smallest positive time tv when Q is visible from P, i.e. when the line segment connecting points P and Q does not intersect the sphere.
 Input

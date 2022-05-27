@@ -1,5 +1,5 @@
 
-In Chefland, there are NN cities numbered from 11 to NN. The cities are connected using N−1N−1 roads such that there exists a path between all pairs of cities. In other words, the cities and roads forma a tree-structure
+In Chefland, there are N cities numbered from 1 to N. The cities are connected using N−1 roads such that there exists a path between all pairs of cities. In other words, the cities and roads forma a tree-structure
 The roads of Chefland are not in good condition. Therefore, all the roads need to be destroyed. The cost of destroying a road between cities x and y is dx⋅dy, where dx and dy are the degrees of the cities x and y respectively.
 Note that, the degree of a city is the number of roads connected to it before each destroy operation.
 Chef wants to find the minimum cost to destroy all the roads. On calculating this cost once, he finds the process very interesting. Therefore, he does this for Q more independent queries.

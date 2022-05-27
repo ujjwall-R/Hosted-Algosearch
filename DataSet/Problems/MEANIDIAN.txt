@@ -2,7 +2,7 @@
 Chef gets confused between mean and median very often, and as a result, he has developed a dislike of arrays whose mean and median are not equal.
 Chef has an array AA of NN elements. He can perform the following operation on it:
 
-Pick an index 1≤i≤N1≤i≤N and increase Ai by 1.
+Pick an index 1≤i≤N and increase Ai by 1.
 
 He would like to obtain an array whose mean and median are equal. Determine the minimum number of operations required to achieve this.
 Note: The median of an array A of length N is defined as follows:

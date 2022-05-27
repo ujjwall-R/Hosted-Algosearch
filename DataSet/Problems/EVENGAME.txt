@@ -1,8 +1,8 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-There are NN integers in an array AA. 
+There are N integers in an array A. 
 Two players take turns alternatively in placing signs (+ or -) before them, and then they all are added. The sign can be placed before any element of the array that has not been assigned a sign yet. All elements must be assigned a sign.
-Player 11 wins if the resulting sum is even, else player 2 wins. Find out who shall win if they both play optimally. 
+Player 1 wins if the resulting sum is even, else player 2 wins. Find out who shall win if they both play optimally. 
 Input:
 
 First line will contain T, number of testcases. Then the testcases follow. 

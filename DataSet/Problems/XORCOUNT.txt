@@ -1,8 +1,8 @@
 
 Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
-Find the number of sequences with KK elements which satisfy the following conditions:
+Find the number of sequences with K elements which satisfy the following conditions:
 
-Each element is an integer between LL and RR inclusive.
+Each element is an integer between L and R inclusive.
 The bitwise XOR of all elements is between A and B inclusive.
 
 Since the number of sequences satisfying the given conditions can be quite large, compute it modulo 998,244,353.

@@ -1,8 +1,8 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-You are given an integer sequence A1,A2,…,ANA1,A2,…,AN. Find the number of integer sequences X1,X2,…,XNX1,X2,…,XN such that
+You are given an integer sequence A1,A2,…,AN. Find the number of integer sequences X1,X2,…,XN such that
 
-0≤Xi<2390≤Xi<239 for each valid i
+0≤Xi<239 for each valid i
 Xi≠Xj for each valid i≠j
 (X1⋅A1)+(X2⋅A2)+…+(XN⋅AN) is divisible by 239
 

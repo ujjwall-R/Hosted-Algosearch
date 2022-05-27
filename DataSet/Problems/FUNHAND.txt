@@ -1,5 +1,5 @@
 
-MoEngage has 3 decks. Each deck consists of N cards, numbered from 1 to N. He draws out 1 card from each deck randomly with each card having an equal probability of being drawn.
+MoEngage has 33 decks. Each deck consists of NN cards, numbered from 11 to N. He draws out 1 card from each deck randomly with each card having an equal probability of being drawn.
 MoEngage drew cards numbered A and B from the decks 1 and 2 respectively. Now, he wonders what is the probability that he will end up with a funny hand after drawing the third card.
 A funny hand is when 3 consecutive numbered cards are present in your hand.
 Help MoEngage calculate the probability of ending up with a funny hand after drawing the third card.

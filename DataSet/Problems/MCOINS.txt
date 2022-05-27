@@ -1,5 +1,5 @@
 
-Motu has KK boxes and every box is empty at time tt == 0. Now Patlu gave him coins at some T instants of time (1,2,3...T) and asked him to put one coin in each box from box L to R. Patlu make a record of the data and also asked Motu to do the same. Now he asked Motu some queries and asked him to tell the number of coins present in a box X from time t1 to time t2 i.e. number of additional coins that are added to the box X from [t1,t2) .
+Motu has K boxes and every box is empty at time t = 0. Now Patlu gave him coins at some T instants of time (1,2,3...T) and asked him to put one coin in each box from box L to R. Patlu make a record of the data and also asked Motu to do the same. Now he asked Motu some queries and asked him to tell the number of coins present in a box X from time t1 to time t2 i.e. number of additional coins that are added to the box X from [t1,t2) .
 Input:
 
 First line of the input contains two integer, T and Q 

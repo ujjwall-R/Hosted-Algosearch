@@ -1,5 +1,5 @@
 
-You are given two numbers NN and MM. A pair of arrays (A,B)(A,B) is called K-beautiful if and only if:
+You are given two numbers N and M. A pair of arrays (A,B) is called K-beautiful if and only if:
 
 |A|=|B|=N (i.e. both their lengths are equal to N)
 For all i such that 1≤i≤N, 0≤Ai≤M and 0≤Bi≤M.

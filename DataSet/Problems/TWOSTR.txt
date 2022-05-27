@@ -40,7 +40,7 @@ No
 
 
 Explanation
-Test case 11: One of the possible ways to match both the strings is scorescore. This can be done by:
+Test case 1: One of the possible ways to match both the strings is score. This can be done by:
 
 Replace 1st and 2nd ? of string X by characters c and e respectively.
 Replace 1st and 2nd ? of string Y by characters r and e respectively. 

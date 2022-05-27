@@ -1,6 +1,6 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-Chefland is a city that always changes. It can be viewed as a grid with a fixed width N (with N columns numbered 1 through N) and changing height. The rows of the grid are numbered with positive integers. Each cell in Chefland has a colour, which is either '0' or '1'.
+Chefland is a city that always changes. It can be viewed as a grid with a fixed width NN (with NN columns numbered 11 through N) and changing height. The rows of the grid are numbered with positive integers. Each cell in Chefland has a colour, which is either '0' or '1'.
 From a cell (x,y), it is possible to move to one of the cells (x+1,y−1), (x+1,y) and (x+1,y+1), but only if the destination cell exists and has the same colour as the origin cell.
 In Chefland, rows sometimes appear or disappear. However, a row may only appear at the bottom of the grid or disappear if it was at the top of the grid; whenever that happens, rows are renumbered with positive integers from top to bottom in such a way that the topmost row has number 1.
 Now, Chef received a difficult task ― keeping track of the number of ways to move from the topmost row to the bottommost row. He is asking you to help him answer Q queries. Initially, the grid is empty ― it has 0 rows. There are three types of queries:

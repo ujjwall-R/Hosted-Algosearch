@@ -1,6 +1,6 @@
 
-You are given a tree with nn vertices numbered 1,2,…,n1,2,…,n. There are two players Alice and Bob who play a game on this tree, taking turns alternatively.  Alice starts.
-In their turn a participant has to remove a leaf (and the edge adjacent to it) from the tree. A leaf is a node with degree 11. Please note, that the tree changes with the game progressing, and a node which is not a leaf in the beginning can become a leaf later and become eligible to be removed.
+You are given a tree with n vertices numbered 1,2,…,n. There are two players Alice and Bob who play a game on this tree, taking turns alternatively.  Alice starts.
+In their turn a participant has to remove a leaf (and the edge adjacent to it) from the tree. A leaf is a node with degree 1. Please note, that the tree changes with the game progressing, and a node which is not a leaf in the beginning can become a leaf later and become eligible to be removed.
 Alice likes the vertex x and wants it be the last node remaining. Bob hates node x and doesn't want it to be the last node remaining.
 For all the choices of vertex x, find who wins assuming both play optimally.
 Input

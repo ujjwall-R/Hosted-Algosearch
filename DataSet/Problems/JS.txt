@@ -1,6 +1,6 @@
 
-Lav has an array A of size N. He noticed that Chef is initially standing at the first index of the array.
-While standing at the ith index (1≤i<N) of the array, Chef can perform the following types of jumps:
+Lav has an array AA of size NN. He noticed that Chef is initially standing at the first index of the array.
+While standing at the ithith index (1≤i<N) of the array, Chef can perform the following types of jumps:
 
 Jump 1: Jump to the immediate next index j such that Ai and Aj have the same parity.
 Jump 2: Jump to the immediate next index j such that Ai and Aj have different parity.

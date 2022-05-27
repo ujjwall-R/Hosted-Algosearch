@@ -1,6 +1,6 @@
 
 Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
-Chef has a tree with N nodes numbered 1 through N. Each node of the tree has a weight; let's denote the weight of node v by av.
+Chef has a tree with NN nodes numbered 11 through N. Each node of the tree has a weight; let's denote the weight of node v by av.
 Chef should answer Q queries. Each query is described by an integer r and a list of k nodes u1,u2,…,uk. In each query, let S be the connected subgraph of the tree (i.e. a subtree) which contains the nodes u1,u2,…,uk and has the minimum possible size (it can be proven that these conditions uniquely define S). The answer to a query is minu∈S(|au−r|).
 Help Chef and answer all the queries. Note the special format of the input, which is intended to ensure you can only know each query (except the first) after answering the previous query.
 Input

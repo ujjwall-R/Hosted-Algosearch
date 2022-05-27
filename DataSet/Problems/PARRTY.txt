@@ -1,6 +1,6 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-There are NN employees (numbered 11 through NN) working at ShareChat. You are given M pairs of employees that do not get along with each other.
+There are NN employees (numbered 11 through N) working at ShareChat. You are given M pairs of employees that do not get along with each other.
 Arya, the CEO of ShareChat, wants to throw a party. She is still not sure which employees to invite, but her assistant has given her Q suggestions. Each suggestion consists of K intervals [L1,R1],[L2,R2],…,[LK,RK]; this means that all employees whose numbers lie in the union of these intervals should be invited to the party.
 Arya is a perfectionist, so she wants all invited employees to get along. You, her second assistant, are the only one she could trust with finding out, for each suggestion, if this condition is satisfied. Complete this task!
 Input

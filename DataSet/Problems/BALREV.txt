@@ -1,5 +1,5 @@
 
-Chef is given a binary string AA of length NN. He can perform the following operation on AA any number of times:
+Chef is given a binary string A of length N. He can perform the following operation on A any number of times:
 
 Choose L and R (1≤L≤R≤N), such that, in the substring A[L,R], the number of 1s is equal to the number of 0s and reverse the substring A[L,R].
 

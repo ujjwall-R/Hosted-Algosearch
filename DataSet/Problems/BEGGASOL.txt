@@ -1,13 +1,13 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-There are NN cars (numbered 1 through N) on a circular track with length N. For each i (2≤i≤N), the i-th of them is at a distance i−1 clockwise from car 1, i.e. car 1 needs to travel a distance i−1 clockwise to reach car i. Also, for each valid i, the i-th car has fi litres of gasoline in it initially.
-You are driving car 1 in the clockwise direction. To move one unit of distance in this direction, you need to spend 1 litre of gasoline. When you pass another car (even if you'd run out of gasoline exactly at that point), you steal all its gasoline. Once you do not have any gasoline left, you stop.
+There are NN cars (numbered 11 through NN) on a circular track with length NN. For each ii (2≤i≤N2≤i≤N), the ii-th of them is at a distance i−1i−1 clockwise from car 11, i.e. car 11 needs to travel a distance i−1i−1 clockwise to reach car ii. Also, for each valid ii, the ii-th car has fifi litres of gasoline in it initially.
+You are driving car 11 in the clockwise direction. To move one unit of distance in this direction, you need to spend 11 litre of gasoline. When you pass another car (even if you'd run out of gasoline exactly at that point), you steal all its gasoline. Once you do not have any gasoline left, you stop.
 What is the total clockwise distance travelled by your car? 
 Input
 
-The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
-The first line of each test case contains a single integer N.
-The second line contains N space-separated integers f1,f2,…,fN.
+The first line of the input contains a single integer TT denoting the number of test cases. The description of TT test cases follows.
+The first line of each test case contains a single integer NN.
+The second line contains NN space-separated integers f1,f2,…,fNf1,f2,…,fN.
 
 Output
 For each test case, print a single line containing one integer ― the total clockwise distance travelled.

@@ -1,6 +1,6 @@
 
 Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
-The Chefland Army has NN soldiers, standing in a row and numbered 11 through NN from left to right. Their heights from left to right are A1,A2,…,AN.
+The Chefland Army has N soldiers, standing in a row and numbered 1 through N from left to right. Their heights from left to right are A1,A2,…,AN.
 A squad consists of one or more consecutive soldiers, i.e. soldiers L through R (inclusive) for some L and R such that 1≤L≤R≤N. The strength of a squad is defined in the following way: for each soldier in this squad, find the number of soldiers in the squad with strictly greater heights that are standing to the left of this soldier, and sum up these numbers.
 The Army Chief decided to write down the strengths of all possible squads, but soon, he realised that it is a heavy task. Therefore, he only wants to know the median of the strengths of all possible squads.
 Note: The median of a sequence is the value that is in the middle when the sequence is sorted. If the length of the sequence is even, there are two values in the middle and the median is the smaller of these values (or either when they are equal).

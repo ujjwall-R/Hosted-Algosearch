@@ -1,6 +1,6 @@
 
 Read problems statements in Hindi, Mandarin chinese, Russian, Vietnamese and Bengali as well.
-Chef likes to solve difficult tasks. This time, he tried to solve the Big Famous Unsolvable A+B=C. One of his friends played a prank on Chef and randomly shuffled the bits in A and B (independently in each number). However, the funny thing is that the sum of the resulting numbers remained C even after shuffling.
+Chef likes to solve difficult tasks. This time, he tried to solve the Big Famous Unsolvable A+B=CA+B=C. One of his friends played a prank on Chef and randomly shuffled the bits in AA and BB (independently in each number). However, the funny thing is that the sum of the resulting numbers remained C even after shuffling.
 Chef is now wondering: in how many ways is it possible to shuffle the bits of A and the bits of B such that their sum after shuffling is equal to C? Let's denote the integers obtained by shuffling the bits of A and B by As and Bs respectively; two ways (As1,Bs1) and (As2,Bs2) are considered distinct if As1≠As2 or Bs1≠Bs2.
 It is allowed to add any number (possibly zero) of leading zeroes, i.e. bits 0, to A and any number of leading zeroes to B before shuffling the bits.
 Input

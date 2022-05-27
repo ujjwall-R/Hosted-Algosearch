@@ -9,7 +9,7 @@ Given that Mario was initially normal, find his size after eating XX mushrooms.
 Input Format
 
 The first line of input will contain one integer TT, the number of test cases. Then the test cases follow.
-Each test case contains a single line of input, containing one integer XX.
+Each test case contains a single line of input, containing one integer X.
 
 Output Format
 For each test case, output in a single line Mario's size after eating X mushrooms.

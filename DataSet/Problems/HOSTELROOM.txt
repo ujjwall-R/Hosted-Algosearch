@@ -1,6 +1,6 @@
 
 There are initially XX people in a room. 
-You are given an array AA of length N which describes the following events:
+You are given an array AA of length NN which describes the following events:
 
 If Ai≥0, then Ai people enter the room at i-th minute. For e.g. if A2=3, then 3 people enter the room at the 2-nd minute.
 If Ai<0, then |Ai| people leave the room at i-th minute. Here |Ai| denotes the absolute value of Ai. For e.g. if A4=−2, then 2 people leave the room at the 4-th minute.

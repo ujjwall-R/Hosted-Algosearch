@@ -2,7 +2,7 @@
 Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
 Chef has started learning to solve dynamic programming problems recently. He has practiced on a lot of problems already, so he wants to try his hands on the hardest problems in this domain.
 Chef only likes the interesting part of solving dynamic programming problems — specifically, he just likes to divide a problem into beautiful subproblems which consist of solving recurrences; he finds actually solving these recurrences quite boring. Since you are Chef's assistant, your job is solving this boring part for Chef.
-Let's define a recurrent sequence {dp(k)}∞k=1{dp(k)}∞k=1 with parametres AA, BB and KK as follows:
+Let's define a recurrent sequence {dp(k)}∞k=1{dp(k)}∞k=1 with parametres AA, B and K as follows:
 
 dp(1)=K
 for n>1, dp(n)=A⋅dp(n−1)+B⋅n−1∑i=1dp(i)⋅dp(n−i)

@@ -2,7 +2,7 @@
 Read problems statements in Hindi,
 Mandarin chinese
 , Russian and Vietnamese as well.
-There are NN dragons in Wonderland (numbered 11 through NN). Each dragon lives in one of N caves, which are located in a single row and numbered 1 through N in the order from left to right. Let's denote the strength of the i-th dragon by Si.
+There are NN dragons in Wonderland (numbered 11 through N). Each dragon lives in one of N caves, which are located in a single row and numbered 1 through N in the order from left to right. Let's denote the strength of the i-th dragon by Si.
 Also, a beautiful princess lives in Wonderland. Many princes would like to marry her. But the princess feels self-sufficient, so she doesn't want to get married. She loves living in dragon caves and talking to dragons.
 One day, the princess heard that a new prince is travelling to Wonderland to propose to her. She doesn't want to even see the prince — instead, she's going to choose some cave to live in and assign exactly one dragon to each cave to protect her from the prince.
 Let's denote the cave the princess chose by F and the strength of the dragon inhabiting the i-th cave after the princess assigns the dragons to caves by Xi. The prince will start his journey near some cave V and move straight towards cave F, fighting the dragons in all caves between V and F (both inclusive). The prince initially has strength P; by defeating a dragon with strength X, the prince's strength decreases by X. If the prince's strength becomes non-positive at any time, he dies.

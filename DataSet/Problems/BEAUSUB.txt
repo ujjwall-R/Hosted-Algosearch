@@ -1,6 +1,6 @@
 
 Read problems statements in Mandarin Chinese, Russian, Vietnamese and Bengali as well.
-An array AA consisting of NN integers is called KK-beautiful if it holds the following property:
+An array AA consisting of NN integers is called K-beautiful if it holds the following property:
 The number of adjacent indices with different values is at most K. More formally, there are at most K indices i (1≤i<N) such that Ai≠Ai+1. Note that according to this definition, if an array A is K-beautiful, then A is also (K+1)-beautiful.
 You are given an array A consisting of N integers and an integer K. Find the length of the longest K-beautiful subsequence of A, where a subsequence is defined below.
 For example, consider the array A=[1,1,2,3,2,4]. The subsequences [1,1] and [1,1,2] are 1-beautiful, and the subsequences [1,2,3] and [1,2,2,4] are 2-beautiful.

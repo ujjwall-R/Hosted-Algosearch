@@ -1,5 +1,5 @@
 
-You are given two integers NN and XX. Output an array A of length N such that:
+You are given two integers NN and XX. Output an array AA of length N such that:
 
 −1000≤Ai≤1000 for all 1≤i≤N.
 All Ai are distinct.

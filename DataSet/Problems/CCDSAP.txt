@@ -1,5 +1,5 @@
 
-Today is the day of the CCDSAP exam. Chef is responsible for monitoring the exam. The hall in which the exam will be held contains NN seats (numbered 11 through N) arranged in a row. Initially, each seat is either empty or occupied by a participant in the exam. You are given a binary string S with length N; for each valid i, the i-th character of S is '1' if the i-th seat is occupied or '0' if this seat is empty.
+Today is the day of the CCDSAP exam. Chef is responsible for monitoring the exam. The hall in which the exam will be held contains N seats (numbered 1 through N) arranged in a row. Initially, each seat is either empty or occupied by a participant in the exam. You are given a binary string S with length N; for each valid i, the i-th character of S is '1' if the i-th seat is occupied or '0' if this seat is empty.
 Chef wants to make sure that no two participants are sitting next to each other, in order to prevent cheating. To do this, Chef may perform a number of operations (possibly zero). In each operation, he can ask a participant to move from his seat to an adjacent seat, either to its left or right, if such a seat exists and is empty.
 Find the minimum number of operations required to make sure that no two participants are sitting next to each other (in adjacent seats), or determine that it is impossible.
 Input

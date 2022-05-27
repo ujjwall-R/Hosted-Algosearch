@@ -4,14 +4,14 @@ Chef is always trying to find patterns within integers. Today Chef has 33 positi
 Input:
 
 First line will contain the number 55, which is the number of testcases. Then the testcases follow. 
-Each testcase contains a single line of input, with three space-separated positive integers xx, y, and z. 
+Each testcase contains a single line of input, with three space-separated positive integers xx, yy, and zz. 
 
 Output:
 For each testcase, output in a single line, "YES" if it's possible to represent any integer among the three integers as the sum of the other two integers, and "NO" if not. 
 NOTE: The output is case insensitive, meaning both uppercase and lowercase characters can be used at any position of the output string.
 Constraints
 
-1<=x,y,z<=1000
+1<=x,y,z<=10001<=x,y,z<=1000
 
 Subtasks
 
@@ -49,11 +49,11 @@ YES
 
 
 Explanation
-Case 1: For this case, the third integer can be written as the sum of the first two. 2=1+1
-Case 2: For this case, the second integer can be written as the sum of the first and third. 3=1+2
+Case 1: For this case, the third integer can be written as the sum of the first two. 2=1+12=1+1
+Case 2: For this case, the second integer can be written as the sum of the first and third. 3=1+23=1+2
 Case 3: For this case, no integer can be written as the sum of other two.
 Case 4: For this case, no integer can be written as the sum of other two.
-Case 5: For this case, the third integer can be written as the sum of the first two. 33=11+22
+Case 5: For this case, the third integer can be written as the sum of the first two. 33=11+2233=11+22
 
 
 

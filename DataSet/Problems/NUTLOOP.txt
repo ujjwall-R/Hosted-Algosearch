@@ -2,7 +2,7 @@
           
             Chef and Horsbug is busy during the summer, working together to build some ML Models.
 However, they got stuck in a very complicated problem and is trying to figure out the method.
-Chef has got two array (Lets suppose, we denote them as A and B) of length N, containing  single digit numbers only. 
+Chef has got two array (Lets suppose, we denote them as AA and BB) of length NN, containing  single digit numbers only. 
 Chef needs to combine the i-th element of array -A and B and find the greatest among the two combinations (two digit number formed by joining the digits).  
 Help Chef !
 Input: 

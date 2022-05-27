@@ -1,8 +1,8 @@
 
 You are given an array of candies(Arr) of size N. The power of the Santa represents the sum of the values that you obtain after performing the described operations for N times.
 Your task is to delete the array by performing the following operations:
-• For any turn(i) where (1 <= i <= N), delete either of the end (first or last) elements of remaining array.
-• Before deleting that element (let's say at index K), it contributes to the sum of the values as Arr[K] x turn(i) + SV(i) the power of the array. Here, turn(i) represents the number of turns in which you are performing the operation
+•∙ For any turn(i) where (1 <= i <= N), delete either of the end (first or last) elements of remaining array.
+•∙ Before deleting that element (let's say at index K), it contributes to the sum of the values as Arr[K] x turn(i) + SV(i) the power of the array. Here, turn(i) represents the number of turns in which you are performing the operation
 • SV(i) represents the value of the maximum element that is present in the remaining array before the ith turn is performed
 You are required to perform this in such a way that you maximize the value of the power of the Santa.
 You must print the maximum value of the power that can be obtained after the array is completely deleted.

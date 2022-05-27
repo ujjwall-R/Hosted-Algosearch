@@ -1,5 +1,5 @@
 
-Chef has a sequence of N integers A1,A2,…,AN. He defines a function f(i,j) as follows:
+Chef has a sequence of NN integers A1,A2,…,ANA1,A2,…,AN. He defines a function f(i,j)f(i,j) as follows:
 f(i,j)=Ai+max(Ai,Ai+1)+max(Ai,Ai+1,Ai+2)+⋯+max(Ai,Ai+1,…,Aj)
 Chef tries to find the sum of f(i,j) over all (i,j) such that 1≤i≤j≤N (i.en∑i=1n∑j=if(i,j)), but fails. Can you help him find the sum? 
 Since the sum can be very large, find it modulo (109+7).

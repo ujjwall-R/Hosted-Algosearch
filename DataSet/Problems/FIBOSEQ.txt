@@ -2,8 +2,8 @@
 Read problem statements in Mandarin Chinese and Bengali.
 Let's define Fibonacci concatenation sequence as follows:
 
-f[0]=0f[0]=0, f[1]=1f[1]=1
-f[i]=f[i−1]+f[i−2]f[i]=f[i−1]+f[i−2], for every i≥2
+f[0]=0, f[1]=1
+f[i]=f[i−1]+f[i−2], for every i≥2
 
 Here f[i] denotes the ith Fibonacci concatenation number and + represents concatenation.
 For example, f[2]=f[1]+f[0]=1+0=10, f[3]=f[2]+f[1]= 10+1= 101.

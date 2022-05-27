@@ -1,7 +1,7 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
 This is an interactive problem. Incase you are new to interactive problems, take a look at this link.
-Alice and Bob are playing a game. Initially, Alice has a hidden integer x; Bob only knows an integer N such that 1≤x≤N and he has to find x by asking questions. In each question, Bob must choose an integer y (1≤y≤N), and Alice answers 'G', 'L' or 'E' based on whether x>y, x<y or x=y respectively.
+Alice and Bob are playing a game. Initially, Alice has a hidden integer xx; Bob only knows an integer NN such that 1≤x≤N1≤x≤N and he has to find x by asking questions. In each question, Bob must choose an integer y (1≤y≤N), and Alice answers 'G', 'L' or 'E' based on whether x>y, x<y or x=y respectively.
 However, to make things more interesting, they decided that Alice can lie sometimes. In particular, she cannot lie two times in a row and when x=y (i.e. Bob found x), she has to answer 'E', so lying corresponds to answering 'G' when the correct answer is 'L' or vice versa. Alice can choose to lie at any time as long as she follows these rules.
 As soon as Alice answers 'E' to some question, the game ends and Bob wins. Help Bob and win the game using no more than K questions.
 Note: The grader is adaptive ― the answer is not fixed at the start, but the answers to your questions are chosen in such a way that there is always at least one integer x which is consistent with all answers (for some valid choice of answers that are lies).

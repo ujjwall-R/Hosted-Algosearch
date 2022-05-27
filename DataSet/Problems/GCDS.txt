@@ -1,6 +1,6 @@
 
 Read problems statements Mandarin , Bengali , Hindi , Russian and Vietnamese as well.
-Pantelija was given a sequence of positive integers a1,a2,…,aNa1,a2,…,aN. Let's define the gcd value of this sequence as the number of its non-empty contiguous subsequences with greatest common divisor strictly greater than 11. The greatest common divisor of any contiguous subsequence al,al+1,…,aral,al+1,…,ar (1≤l≤r≤N) is the greatest positive integer which divides each element of this subsequence.
+Pantelija was given a sequence of positive integers a1,a2,…,aN. Let's define the gcd value of this sequence as the number of its non-empty contiguous subsequences with greatest common divisor strictly greater than 1. The greatest common divisor of any contiguous subsequence al,al+1,…,ar (1≤l≤r≤N) is the greatest positive integer which divides each element of this subsequence.
 Pantelija wants to maximise the gcd value of this sequence. In order to do that, he may choose a valid index i, an integer b (1≤b≤5⋅105, since he does not like large numbers) and change the element ai to b. What is the maximum possible gcd value he can obtain?
 Input
 

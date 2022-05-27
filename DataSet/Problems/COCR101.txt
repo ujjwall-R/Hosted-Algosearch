@@ -1,20 +1,14 @@
 
-In the Parallel World of Competitive Programming, formally known as PWCP, every coder has a   unique positive integer Rating i.e. Rating > 00.
+In the Parallel World of Competitive Programming, formally known as PWCP, every coder has a   unique positive integer Rating i.e. Rating > 0.
 There are two types of coders :
 Type 1 : One who code in groups during a contest.
 Type 2 : One who code alone during a contest.                
-Iron Man being a genius tries to find out all the coders who code in groups during contests. Let us consider a list of NN integers where ith integer denotes rating of ith coder of type 1 as [A1,A2,A3,....AN].
+Iron Man being a genius tries to find out all the coders who code in groups during contests. Let us consider a list of N integers where ith integer denotes rating of ith coder of type 1 as [A1,A2,A3,....AN].
 If a coder has rating X, he belongs to type 1 if and only if there exists atleast one element in A for which GCD(X,Ai)=Ai holds true . ( Because it shows that this coder helped the ith coder in some problem. )
 Coders who do not belong to type 1, belong to type 2.
 Your task is to find Kth highest Rated Coder of type 1 and type 2. As it is a very simple task, Iron Man gave you another task. 
 Consider the function given below :            
-int F(int x, int y) 
-{ 
-    if (y == 0) 
-        return x; 
-    else
-        return F( x ^ y, (x & y) << 1); 
-} 
+int F(int x, int y) {     if (y == 0)         return x;     else        return F( x ^ y, (x & y) << 1); } 
 Let ,
 X1=Kth highest Rated Coder of Type 1 and X2=Kth highest Rated Coder of Type 2 , Also  L=min(X1,X2) , R=max(X1,X2) 
 Let us define G(L,R) as ,

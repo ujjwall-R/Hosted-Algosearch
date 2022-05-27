@@ -1,14 +1,14 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
 Yukti found a strange paper with a Boolean expression written on it. Unfortunately, all the operands were missing from this expression. Being an innovative person, Yukti immediately created a riddle for her students based on this incomplete expression.
-The students are given a string L describing a valid Boolean expression, where each operand (value) is replaced by the character '#'. A valid expression is defined as one of the following:
+The students are given a string LL describing a valid Boolean expression, where each operand (value) is replaced by the character '#'. A valid expression is defined as one of the following:
 
 A single term '#'.
 A string in the format "([expression1][operator][expression2])", where [expression1] and [expression2] are valid expressions and [operator] is one of the characters '&', '|' and '^' (denoting bitwise AND, OR and XOR respectively).
 
-Each of the characters '#' in the string L should be replaced by one of the characters '0', '1', 'a' and 'A', uniformly randomly and independently. Then, the resulting expression is evaluated as follows:
+Each of the characters '#' in the string LL should be replaced by one of the characters '0', '1', 'a' and 'A', uniformly randomly and independently. Then, the resulting expression is evaluated as follows:
 
-A Boolean value a (0 or 1) is chosen. Each occurrence of the character 'a' is interpreted as this value and each occurrence of 'A' is interpreted as its negation (1−a). The characters '0' and '1' are interpreted as the Boolean values 0 and 1 respectively.
+A Boolean value aa (0 or 1) is chosen. Each occurrence of the character 'a' is interpreted as this value and each occurrence of 'A' is interpreted as its negation (1−a). The characters '0' and '1' are interpreted as the Boolean values 0 and 1 respectively.
 Since there are two possible values of a, we obtain two constant Boolean expressions this way. Let's denote them by G0 (when a = 0) and G1 (when a = 1). 
 Let's evaluate G0 and G1.
 If G0=G1=0, the value of the expression is '0'.

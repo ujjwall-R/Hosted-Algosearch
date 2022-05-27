@@ -1,7 +1,7 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
 "It's totally fun to play troublemakers ― totally." - Lee Pace
-Sakshi had a matrix with N rows (numbered 1 through N) and M columns (numbered 1 through M). Initially, all cells of this matrix contained 0-s. Let's denote a cell in row r and column c by (r,c).
+Sakshi had a matrix with NN rows (numbered 11 through NN) and M columns (numbered 1 through M). Initially, all cells of this matrix contained 0-s. Let's denote a cell in row r and column c by (r,c).
 Sakshi is well-known for troubling others. This time, her friends Nikki and Mansi planned to take revenge and teach her a lesson, so they changed her matrix by performing the following operation Q times:
 
 Choose any valid cell (x,y).

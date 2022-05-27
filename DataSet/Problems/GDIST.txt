@@ -1,6 +1,6 @@
 
 Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
-You are given a context free grammar GG and a string SS. Find the minimum Levenshtein distance between S and any string W accepted by G.
+You are given a context free grammar GG and a string SS. Find the minimum Levenshtein distance between SS and any string W accepted by G.
 Input
 
 The first line of the input contains two space-separated integers V and R denoting the number of non-terminals and the number of productions of G respectively.

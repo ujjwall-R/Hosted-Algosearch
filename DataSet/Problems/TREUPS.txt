@@ -1,6 +1,6 @@
 
 Read problem statements in Mandarin, Russian, and Vietnamese as well.
-You are given a tree with NN nodes rooted at node 11, and your task is to color each node of the tree either white or black. For each i (1≤i≤N), let wi be the number of white nodes that occurs in a simple path from the root node to ith node and bi be the number of black nodes that occurs in a simple path from the root node to ith node. The cost of a node i is defined as the absolute difference between wi and bi. 
+You are given a tree with N nodes rooted at node 1, and your task is to color each node of the tree either white or black. For each i (1≤i≤N), let wi be the number of white nodes that occurs in a simple path from the root node to ith node and bi be the number of black nodes that occurs in a simple path from the root node to ith node. The cost of a node i is defined as the absolute difference between wi and bi. 
 The cost of the tree is defined as the summation of the cost of all the nodes in the tree. The value of the tree is defined as the absolute difference between the total number of white nodes and the total number of black nodes in the tree. You have to color the tree in such a way that the cost of the tree is minimized.
 Your task is to answer a single query Q, such that:
 

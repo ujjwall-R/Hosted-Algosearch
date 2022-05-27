@@ -1,6 +1,6 @@
 
 Egor came to the Olympiad in Informatics. But the tasks turned out to be too difficult, so Egor chose to sleep instead of solving problems. But as we all know, everyone is very happy when someone is the first who solved the problem. 
-There are NN problems in the contest. The ii-th of them was solved at minute LiLi for the first time. This task will stop increasing the joy of everyone around at the minute Ri+1Ri+1 (that is, Ri is the last minute when the task increases the joy). In other words, the i-th task increases the joyfulness for everyone by 1 unit from the minute Li to the minute Ri.
+There are NN problems in the contest. The ii-th of them was solved at minute LiLi for the first time. This task will stop increasing the joy of everyone around at the minute Ri+1 (that is, Ri is the last minute when the task increases the joy). In other words, the i-th task increases the joyfulness for everyone by 1 unit from the minute Li to the minute Ri.
 In the anime that Egor watched recently, there are various techniques that can make a person fall asleep. Egor knows techniques that will allow him to sleep for any minutes between A and B minutes, i.e. Egor can sleep for A minutes, A+1 minutes, …, B minutes. Egor can also combine techniques, i.e. he can choose techniques with different duration and then sleep the total time of all techniques.
 Egor wants to combine techniques to wake up in the most joyful moment possible. Your task is to find the maximum joy in which Egor can wake up.
 Input Format

@@ -1,5 +1,5 @@
 
-You know that 11 kg of pulp can be used to make 10001000 pages and 11 notebook consists of 100 pages. 
+You know that 11 kg of pulp can be used to make 10001000 pages and 1 notebook consists of 100 pages. 
 Suppose a notebook factory receives N kg of pulp, how many notebooks can be made from that?
 Input Format
 

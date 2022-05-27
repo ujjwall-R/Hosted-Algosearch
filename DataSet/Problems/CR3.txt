@@ -1,7 +1,7 @@
 
 Please Help !! Only few minute's left for the contest. I am stuck with one problem can you help me.
 Problem Statement: -
-Given an array AA of length NN your task is to find the maximum sum of kk length contiguous subarray possible.
+Given an array A of length N your task is to find the maximum sum of k length contiguous subarray possible.
 You can help him as you already finish your all question, instead of giving whole solution you will reply to it's test cases.
 Input:
 

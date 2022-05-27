@@ -1,8 +1,8 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-Chef has a string AA with length NN. It contains only characters '(', ')' and '*'. Chef wants to perform the following process:
+Chef has a string A with length N. It contains only characters '(', ')' and '*'. Chef wants to perform the following process:
 
-Uniformly randomly choose a pair of integers (l,r)(l,r) such that 1≤l≤r≤N.
+Uniformly randomly choose a pair of integers (l,r) such that 1≤l≤r≤N.
 Consider the substring S=[Al,Al+1,…,Ar]. Process the characters of this string from left to right.
 Let's denote the current number of closing brackets in S up to the currently processed character (inclusive) by nc. Similarly, let's denote the number of opening brackets by no. Note that the string S may change; nc and no correspond to the current state of S, not its initial state.
 Whenever nc becomes greater than no, the currently processed character must be ')'. Then, change it from ')' to '(' and continue processing the remaining characters of S.

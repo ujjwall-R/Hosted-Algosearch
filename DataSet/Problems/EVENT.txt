@@ -1,7 +1,7 @@
 
 Read problems statements Mandarin , Bengali , Hindi , Russian and Vietnamese as well.
 Chef is a very experienced and well-known cook. He has participated in many cooking competitions in the past — so many that he does not even remember them all.
-One of these competitions lasted for a certain number of days. The first day of the competition was day SS of the week (i.e. Monday, Tuesday etc.) and the last day was day EE of the week. Chef remembers that the duration of the competition (the number of days between the first and last day, inclusive) was between LL days and R days inclusive. Is it possible to uniquely determine the exact duration of the competition? If so, what is this duration?
+One of these competitions lasted for a certain number of days. The first day of the competition was day S of the week (i.e. Monday, Tuesday etc.) and the last day was day E of the week. Chef remembers that the duration of the competition (the number of days between the first and last day, inclusive) was between L days and R days inclusive. Is it possible to uniquely determine the exact duration of the competition? If so, what is this duration?
 Input
 
 The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.

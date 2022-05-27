@@ -1,6 +1,6 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-For a sequence of positive integers A1,A2,…,AKA1,A2,…,AK, let's define the number of inversions in it as the number of pairs of integers (i,j)(i,j) such that 1≤i<j≤K and Ai>Aj.
+For a sequence of positive integers A1,A2,…,AK, let's define the number of inversions in it as the number of pairs of integers (i,j) such that 1≤i<j≤K and Ai>Aj.
 You are given a permutation P1,P2,…,PN of the integers 1 through N. Determine if it is possible to partition this permutation into two subsequences (possibly empty or non-contiguous) such that:
 
 Each element of P appears in exactly one of these subsequences.

@@ -1,6 +1,6 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-Chef is playing a card game called Blackjack. He starts with a deck of NN cards (numbered 11 through NN), where for each valid i, the i-th card has an integer Ai written on it. Then he starts dealing the cards one by one in the order from card 1 to card N. Chef wins if at some moment in time, the sum of all the cards dealt so far is between X and Y inclusive; if this never happens, Chef loses.
+Chef is playing a card game called Blackjack. He starts with a deck of N cards (numbered 1 through N), where for each valid i, the i-th card has an integer Ai written on it. Then he starts dealing the cards one by one in the order from card 1 to card N. Chef wins if at some moment in time, the sum of all the cards dealt so far is between X and Y inclusive; if this never happens, Chef loses.
 We want Chef to win the game, so without him noticing, we will swap some pairs of cards (possibly none) before the game starts. Find the smallest number of swaps we need so that Chef would win the game, or determine that it is impossible to make Chef win.
 Input
 

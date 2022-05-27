@@ -1,9 +1,9 @@
 
 Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well
-You are given a binary string SS with length NN and an integer KK, which is a divisor of N. A string is said to be K-foldable if it can be changed to a string with length K by repeating the following process without any collisions (defined below):
+You are given a binary string SS with length NN and an integer KK, which is a divisor of NN. A string is said to be KK-foldable if it can be changed to a string with length KK by repeating the following process without any collisions (defined below):
 
-Select the prefix of the current string S with length 2K. (Note that as long as the length of S is greater than K, this prefix always exists.)
-For each i (1≤i≤K), check if the 2K−i+1-th character of S is equal to the i-th character of S ― if they are not equal, there is a collision and the process is invalid.
+Select the prefix of the current string SS with length 2K2K. (Note that as long as the length of SS is greater than KK, this prefix always exists.)
+For each ii (1≤i≤K1≤i≤K), check if the 2K−i+1-th character of S is equal to the i-th character of S ― if they are not equal, there is a collision and the process is invalid.
 Erase the prefix of S with length K.
 
 Your goal is to reorder the characters of S (possibly leaving this string unchanged) in such a way that the resulting string S is a K-foldable string. Find a way to do that or determine that it is impossible. If there are multiple solutions, find the lexicographically smallest rearranged string which is K-foldable.

@@ -1,17 +1,17 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
 Chef is preparing tests for the problem "Move the Coins"!
-He needs to create a tree GG with NN nodes (numbered 11 through NN), which is rooted at node 11, and a list of QQ distinct reparentings. A reparenting is a pair of nodes (u,v)(u,v) (u≠1u≠1) of GG and the result of applying it to GG is another graph, formed as follows:
+He needs to create a tree GG with NN nodes (numbered 11 through NN), which is rooted at node 11, and a list of Q distinct reparentings. A reparenting is a pair of nodes (u,v) (u≠1) of G and the result of applying it to G is another graph, formed as follows:
 
-Take a copy of the original tree GG.
-In this copy, remove the edge connecting the vertex uu to its parent.
-Then, add a new edge between the nodes uu and vv.
+Take a copy of the original tree G.
+In this copy, remove the edge connecting the vertex u to its parent.
+Then, add a new edge between the nodes u and v.
 
-As an example, consider the following tree GG:
+As an example, consider the following tree G:
 
-We wish to apply the reparenting r=(6,3)r=(6,3) to it. The resulting graph would be
+We wish to apply the reparenting r=(6,3) to it. The resulting graph would be
 
-A reparenting rr is valid if the resulting graph is still a tree (that is, a connected graph without cycles). For the time being, Chef wants to generate only valid reparentings.
+A reparenting r is valid if the resulting graph is still a tree (that is, a connected graph without cycles). For the time being, Chef wants to generate only valid reparentings.
 Chef has already decided on the tree G and now he just needs to pick Q valid reparentings. He makes an initial list L of all valid reparentings for this tree and sorts them in a special order.
 Let r=(u,v) and r′=(u′,v′) be valid reparentings. Their order is decided as follows:
 

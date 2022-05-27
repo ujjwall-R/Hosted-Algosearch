@@ -1,6 +1,6 @@
 
 Read problems statements in Mandarin chinese and Vietnamese as well.
-Chef is learning linear algebra. Recently, he learnt that for a square matrix MM, trace(M)trace(M) is defined as the sum of all elements on the main diagonal of MM (an element lies on the main diagonal if its row index and column index are equal).
+Chef is learning linear algebra. Recently, he learnt that for a square matrix M, trace(M) is defined as the sum of all elements on the main diagonal of M (an element lies on the main diagonal if its row index and column index are equal).
 Now, Chef wants to solve some excercises related to this new quantity, so he wrote down a square matrix A with size N×N. A square submatrix of A with size l×l is a contiguous block of l×l elements of A. Formally, if B is a submatrix of A with size l×l, then there must be integers r and c (1≤r,c≤N+1−l) such that Bi,j=Ar+i−1,c+j−1 for each 1≤i,j≤l.
 Help Chef find the maximum trace of a square submatrix of A.
 Input

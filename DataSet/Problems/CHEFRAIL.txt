@@ -1,6 +1,6 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-Chef was working on building rail tracks connecting pairs of railway stations in a 2D Cartesian coordinate system. There are NN stations on the xx-axis, with coordinates x1,x2,…,xNx1,x2,…,xN, and M stations on the y-axis, with coordinates y1,y2,…,yM. Chef has completed his task and built a rail track (line segment) between each pair of stations.
+Chef was working on building rail tracks connecting pairs of railway stations in a 2D Cartesian coordinate system. There are N stations on the x-axis, with coordinates x1,x2,…,xN, and M stations on the y-axis, with coordinates y1,y2,…,yM. Chef has completed his task and built a rail track (line segment) between each pair of stations.
 Now, Chef is wondering how many right triangles have the following property: the vertices are stations and the sides are railway tracks between them. Since Chef is busy with his other projects, help him answer this question.
 Input
 

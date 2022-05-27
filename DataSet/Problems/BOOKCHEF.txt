@@ -47,9 +47,9 @@ ComeAtTheKingBestNotMiss
 
 
 Explanation
-Friends 11 and 22 are special. Among them, friend 22's post has more popularity. Thus, the first two posts of the feed would be of friend 22 and 11 respectively.
-From remaining friends, i.e., friends 33 and 44, friend 44's post has more popularity. Thus, it would be shown earlier in the feed.
-The final ordering of posts is 2→1→4→32→1→4→3. 
+Friends 11 and 22 are special. Among them, friend 22's post has more popularity. Thus, the first two posts of the feed would be of friend 2 and 1 respectively.
+From remaining friends, i.e., friends 3 and 4, friend 4's post has more popularity. Thus, it would be shown earlier in the feed.
+The final ordering of posts is 2→1→4→3. 
 
 
 

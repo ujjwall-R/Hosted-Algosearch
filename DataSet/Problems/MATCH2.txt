@@ -1,6 +1,6 @@
 
 Read problems statements Bengali , Mandarin chinese , Russian and Vietnamese as well.
-You are given two integer sequences A1,A2,…,AN and B1,B2,…,BN.
+You are given two integer sequences A1,A2,…,ANA1,A2,…,AN and B1,B2,…,BNB1,B2,…,BN.
 We define the similarity of the sequences A and B as the number of indices i such that Ai=Bi.
 You should process Q queries. In each query, you are given parameters l, r and c; you should change each of the elements Al,Al+1,…,Ar to c, and then compute the similarity of the sequences A and B.
 Chef knows that this is simple, so he asks you to answer the queries online. Note that the input is given in a special format to ensure that.

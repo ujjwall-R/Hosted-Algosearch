@@ -1,10 +1,10 @@
 
 There are two types of vehicles in Chefland.
 
-Bus which has a capacity of 100 people.
-Car which has a capacity of 4 people.
+Bus which has a capacity of 100100 people.
+Car which has a capacity of 44 people.
 
-There are N people who want to travel from place A to place B. You know that a single bus emits X units of smoke while a single car emits Y units of smoke in their journey from A to B.
+There are NN people who want to travel from place AA to place B. You know that a single bus emits X units of smoke while a single car emits Y units of smoke in their journey from A to B.
 You want to arrange some buses and cars to carry all these N people such that total smoke emitted is minimized. Output the minimized smoke value.
 Input Format
 

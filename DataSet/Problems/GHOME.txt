@@ -2,10 +2,10 @@
 Gaithonde has just arrived in the city of Mumbai and plan to start his gang from Gopalmath.
 He bought a house and seeing the pathetic floor conditions want to pave it with tile. He has a m x n units of floor area and want to cover it up with 2x1 size tiles. As being a gangster he is not good at
 calculations. Could you help him to find out the minimum number tiles he need cover the floor?
-Note:Note: As the answer may exceed the limit of int so use long long int.
+Note: As the answer may exceed the limit of int so use long long int.
 Constraints
 
-1≤m,n≤1091≤m,n≤109
+1≤m,n≤109
 
 Input Format:
 Input has two integers m and n

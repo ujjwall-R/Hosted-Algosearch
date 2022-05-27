@@ -1,6 +1,6 @@
 
 Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
-The nation of Islandia can be represented as an N×NN×N grid. Let (i,j)(i,j) denote the square at the i-th row from the top and the j-th column from the left. A cell (i,j) is labelled 1 if it is land and 0 if it is water. Any two cells of the grid which share a side, and are both land are said to belong to the same island. 
+The nation of Islandia can be represented as an N×NN×N grid. Let (i,j)(i,j) denote the square at the ii-th row from the top and the j-th column from the left. A cell (i,j) is labelled 1 if it is land and 0 if it is water. Any two cells of the grid which share a side, and are both land are said to belong to the same island. 
 Islandia holds two contests a year, the first at (xa,ya) and the second at (xb,yb). Ashish will need to travel from cell (xa,ya) to (xb,yb). To do so, he can perform a sequence of zero or more moves. In each move if he is at (xi,yi), he can perform one of two actions:
 
 Type 1: Move from (xi,yi) to some land cell (xj,yj) that lies on a different island at a cost of |xi−xj|+|yi−yj|

@@ -7,7 +7,7 @@ Travel with his CAR which takes YY minutes.
 Which of the two options is faster or do they both take same time?
 Input Format
 
-First line will contain T, number of test cases. Then the test cases follow.
+First line will contain TT, number of test cases. Then the test cases follow.
 Each test case contains a single line of input, two integers X,Y representing the time taken to travel with BIKE and CAR respectively.
 
 Output Format

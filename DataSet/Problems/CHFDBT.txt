@@ -4,7 +4,7 @@ As the test is online, he wants to write a code that solves the question. Howeve
 Chef is given a function F(X)F(X) such that the condition:
 
 F(X)=F(2⋅X)F(X)=F(2⋅X)
-holds true for all X, where X is a positive integer.
+holds true for all XX, where X is a positive integer.
 
 For a given positive integer N, find the maximum number of distinct elements in the array [F(1),F(2),F(3),…,F(N)].
 Input Format

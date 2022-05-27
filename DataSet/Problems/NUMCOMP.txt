@@ -1,6 +1,6 @@
 
 Read problems statements in Mandarin chinese, Russian  and Vietnamese as well.
-Danya gave integers aa, bb and n to Archi. Archi wants to compare an and bn. Help Archi with this task.
+Danya gave integers aa, bb and nn to Archi. Archi wants to compare an and bn. Help Archi with this task.
 Input
 
 The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.

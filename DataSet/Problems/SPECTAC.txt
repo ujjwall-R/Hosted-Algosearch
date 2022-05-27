@@ -1,7 +1,7 @@
 
 Read problems statements in Russian, Vietnamese, Hindi, Mandarin chinese and Bengali as well.
-In between cooking lunch and dinner, Chef has decided to take some time off to read about the Activity Selection Problem. In that problem, there are M time intervals [l1,r1],[l2,r2],…,[lM,rM]. A solution to the problem is a maximum subset of these intervals such that no two intervals from this subset have a common point (sharing an endpoint is also forbidden), i.e. a set containing the maximum possible number of such intervals.
-Since solving this problem proved to be too easy, Chef is now wondering: in how many ways could he pick a set of M distinct intervals such that all of their endpoints belong to the set {1,2,…,N} and the number of intervals in the solution to the Activity Selection Problem for this set is exactly K? Since the result may be very large, compute it modulo MOD.
+In between cooking lunch and dinner, Chef has decided to take some time off to read about the Activity Selection Problem. In that problem, there are MM time intervals [l1,r1],[l2,r2],…,[lM,rM][l1,r1],[l2,r2],…,[lM,rM]. A solution to the problem is a maximum subset of these intervals such that no two intervals from this subset have a common point (sharing an endpoint is also forbidden), i.e. a set containing the maximum possible number of such intervals.
+Since solving this problem proved to be too easy, Chef is now wondering: in how many ways could he pick a set of MM distinct intervals such that all of their endpoints belong to the set {1,2,…,N} and the number of intervals in the solution to the Activity Selection Problem for this set is exactly K? Since the result may be very large, compute it modulo MOD.
 Input
 The first and only line of the input contains four space-separated integers N, M, K and MOD.
 Output

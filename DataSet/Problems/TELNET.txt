@@ -1,6 +1,6 @@
 
 The mayor of Townsville City wants to build a telephone network in the city.
-The city is represented as a square grid of size N x N. Rows and columns of the grid are numbered from 1 to N. Each cell of the grid (i,j) has a tower of height Hi,j. The height of each tower is between 1 and K (inclusive). It is guaranteed that there is at least one tower of each height in the city.
+The city is represented as a square grid of size NN x NN. Rows and columns of the grid are numbered from 11 to N. Each cell of the grid (i,j) has a tower of height Hi,j. The height of each tower is between 1 and K (inclusive). It is guaranteed that there is at least one tower of each height in the city.
 
 The mayor's engineering team wants to use exactly K−1 cables to create the network.
 The first cable should be between a tower of height 1 and a tower of height 2, the second cable should be between a tower of height 2 and a tower of height 3, and so on with the (K−1)th cable connecting a tower of height (K−1) and a tower of height K, i.e., a chain of cables needs to be created in the height order 1,2,3,...,K.

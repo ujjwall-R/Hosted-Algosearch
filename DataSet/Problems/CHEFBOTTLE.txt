@@ -1,6 +1,6 @@
 
-Chef has N empty bottles where each bottle has a capacity of X litres.
-There is a water tank in Chefland having K litres of water. Chef wants to fill the empty bottles using the water in the tank.  
+Chef has NN empty bottles where each bottle has a capacity of XX litres.
+There is a water tank in Chefland having KK litres of water. Chef wants to fill the empty bottles using the water in the tank.  
 Assuming that Chef does not spill any water while filling the bottles, find out the maximum number of bottles Chef can fill completely.
 Input Format
 

@@ -1,6 +1,6 @@
 
 Read problems statements Hindi ,Bengali , Mandarin chinese , Russian and Vietnamese as well.
-Chef loves to play chess, so he bought a new chessboard with width M and height N recently.
+Chef loves to play chess, so he bought a new chessboard with width MM and height NN recently.
 Chef considers a chessboard correct if its width (number of columns) is equal to its height (number of rows) and each cell has no side-adjacent cell of the same color (this is the so-called "chess order" which you can see in real-world chessboards). Chef's chessboard does not have to be a correct chessboard (in particular, it may have N≠M).
 A sub-board of Chef's chessboard is a rectangular piece of this board with an arbitrarily chosen top left and bottom right cell (possibly equal to the original chessboard). Every sub-board is also a chessboard.
 Chef can invert some cells; inverting a cell means changing its color from white to black or from black to white. After inverting those cells, he wants to cut the maximum correct sub-board out of the original chessboard.

@@ -1,5 +1,5 @@
 
-Rohit has n empty boxes lying on the ground in a line. The size of the boxes is given in the form of an array aa. The size of the ith box is denoted by a[i]a[i]. Since Rohit has a tiny room, there is a shortage of space. Therefore, he has to reduce the number of boxes on the ground by putting a box into another box that is at least twice the size of the current box i.e if we have to put the ith box into the jth box then (2∗a[i])<=a[j].
+Rohit has n empty boxes lying on the ground in a line. The size of the boxes is given in the form of an array a. The size of the ith box is denoted by a[i]. Since Rohit has a tiny room, there is a shortage of space. Therefore, he has to reduce the number of boxes on the ground by putting a box into another box that is at least twice the size of the current box i.e if we have to put the ith box into the jth box then (2∗a[i])<=a[j].
 Each box can contain a maximum of one box and the box which is kept in another box cannot
 hold any box itself.
 Find the minimum number of boxes that will remain on the ground after putting boxes into each other.

@@ -2,7 +2,7 @@
 Read problems statements in Hindi,
 Mandarin chinese
 , Russian and Vietnamese as well.
-Sheokand is good at mathematics. One day, to test his math skills, Kaali gave him an integer NN. To impress Kaali, Sheokand has to convert NN into an integer MM that can be represented in the form 2x+2y2x+2y (where x and y are non-negative integers such that x≠y). In order to do that, he can perform two types of operations:
+Sheokand is good at mathematics. One day, to test his math skills, Kaali gave him an integer NN. To impress Kaali, Sheokand has to convert NN into an integer MM that can be represented in the form 2x+2y (where x and y are non-negative integers such that x≠y). In order to do that, he can perform two types of operations:
 
 add 1 to N
 subtract 1 from N

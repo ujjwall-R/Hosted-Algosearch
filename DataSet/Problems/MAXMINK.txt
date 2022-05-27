@@ -1,5 +1,5 @@
 
-You are given two arrays AA and BB, both of length NN.
+You are given two arrays A and B, both of length N.
 You would like to choose exactly K distinct indices i1,i2,…,iK such that min(Ai1+Ai2+…+AiK,Bi1+Bi2+…+BiK) is maximized. Find this maximum value.
 Input Format
 

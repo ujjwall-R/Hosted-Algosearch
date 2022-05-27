@@ -1,6 +1,6 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-Chef has a string SS with length NN. He also has MM other strings P1,P2,…,PM, which are called patterns. The characters in the strings are indexed from 1.
+Chef has a string SS with length NN. He also has M other strings P1,P2,…,PM, which are called patterns. The characters in the strings are indexed from 1.
 Chef was wondering if he could find the M patterns in the string S in the given order. That is, he wanted to know whether it is possible to choose M ranges, denoted by [li,ri] for each i (1≤i≤M), such that 1≤l1≤r1<l2≤r2<…<lM≤rM≤N and for each valid i, the substring Sli,Sli+1,…,Sri equals Pi.
 As this problem was too easy for Chef, he decided to make a harder one. A permutation p=(p1,p2,…,pM) of integers 1 through M is called a matchable permutation if Chef can reorder the M patterns into Pp1,Pp2,…,PpM and then find them in S, in this order (in the same way as described above).
 Can you help Chef find the number of matchable permutations?

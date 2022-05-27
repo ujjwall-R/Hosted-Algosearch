@@ -1,6 +1,6 @@
 
 Read problems statements Hindi , Vietnamese , Mandarin Chinese , Russian and Bengali as well.
-In ShareChat, there is a sequence of binary integers A1,A2,…,AN. You should answer Q queries on this sequence. In each query, you are given two indices L and R and a binary integer X.
+In ShareChat, there is a sequence of binary integers A1,A2,…,ANA1,A2,…,AN. You should answer QQ queries on this sequence. In each query, you are given two indices LL and R and a binary integer X.
 The answer to a query is the smallest index i (L≤i≤R) such that the value Ai⊕X is maximum possible, i.e. equal to max(AL⊕X,AL+1⊕X,…,AR⊕X). Here, ⊕ denotes the bitwise XOR operation.
 Input
 

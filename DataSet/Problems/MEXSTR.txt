@@ -1,6 +1,6 @@
 
 Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
-You are given a binary string S. Chef defines MEX(S) as the smallest non-negative integer such that its binary representation (without leading '0'-s; in particular, the binary representation of 0 is "0") is not a subsequence of S.
+You are given a binary string SS. Chef defines MEX(S)MEX(S) as the smallest non-negative integer such that its binary representation (without leading '0'-s; in particular, the binary representation of 00 is "0") is not a subsequence of S.
 Chef is asking you to find MEX(S). Since this integer could be very large, find its binary representation (without leading '0'-s).
 Input
 

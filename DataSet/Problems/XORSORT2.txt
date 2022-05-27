@@ -1,7 +1,7 @@
 
 Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
-You are given a sequence of distinct non-negative integers A1,A2,…,AN.
-For every non-negative integer x<2K, let's define a function f(x) as the number of inversions in the sequence A1⊕x,A2⊕x,…,AN⊕x. (An inversion in a sequence X1,X2,…,XN is a pair of indices (i,j) such that i<j and Xi>Xj.)
+You are given a sequence of distinct non-negative integers A1,A2,…,ANA1,A2,…,AN.
+For every non-negative integer x<2Kx<2K, let's define a function f(x)f(x) as the number of inversions in the sequence A1⊕x,A2⊕x,…,AN⊕x. (An inversion in a sequence X1,X2,…,XN is a pair of indices (i,j) such that i<j and Xi>Xj.)
 Consider the sorted sequence of pairs (f(x),x) for all integers x∈[0,2K−1]; a pair (f(x1),x1) is earlier than (f(x2),x2) in this sequence if f(x1)<f(x2), or if f(x1)=f(x2) and x1<x2. You should find the second element (i.e. the number x) of the P-th pair in this sequence. The sequence is indexed from 1.
 Input
 

@@ -1,9 +1,9 @@
 
 Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
-You are given a matrix of integers AA with NN rows (numbered 11 through N) and M columns (numbered 1 through M). Each element of this matrix is either 0 or 1.
+You are given a matrix of integers AA with NN rows (numbered 11 through NN) and MM columns (numbered 11 through MM). Each element of this matrix is either 00 or 11.
 A move consists of the following steps:
 
-Choose two different rows r1 and r2 or two different columns c1 and c2.
+Choose two different rows r1r1 and r2r2 or two different columns c1 and c2.
 Apply the bitwise OR operation with the second row/column on the first row/column. Formally, if you chose two rows, this means you should change Ar1,k to Ar1,k∨Ar2,k for each 1≤k≤M; if you chose two columns, then you should change Ak,c1 to Ak,c1∨Ak,c2 for each 1≤k≤N.
 
 For each element of the matrix, compute the minimum number of moves required to make it equal to 1 or determine that it is impossible. Note that these answers are independent, i.e. we are starting with the initial matrix for each of them.

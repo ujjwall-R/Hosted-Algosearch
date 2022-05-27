@@ -1,6 +1,6 @@
 
-Chef is given two integers N,SN,S.
-Consider an array AA of size NN such that A[i]=i for every 1≤i≤N.
+Chef is given two integers N,S.
+Consider an array A of size N such that A[i]=i for every 1≤i≤N.
 You are required to find any position x(1≤x≤N) such that :
 (A[1]+A[2]+...A[x−1])+(A[x+1]+A[x+2]+...A[N])=S
 If there are multiple such positions x, print any such position. If there is no such position, print −1.

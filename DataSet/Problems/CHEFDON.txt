@@ -3,9 +3,9 @@ The Chef owns an apple farming business. He has been making a lot of money off i
 Now our chef wants to donate his apples in two cycles such that in each cycle he donates half of what he has (if he has an odd number of apples he donates the smaller portion).
 You will be given the total number of apples he initially has and have to find the number of apples left with the chef after both the cycles of donation.
 Constraints:
-1<=T<=100
-1<=N<=100000 .
-Here N  is the total number of apples he has initially.
+1<=TT<=100
+1<=NN<=100000 .
+Here NN  is the total number of apples he has initially.
 Input:
 The first line contains a number T the total number of testcases.
 The next T lines contain

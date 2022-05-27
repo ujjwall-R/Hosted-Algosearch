@@ -1,11 +1,11 @@
 
 Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
 An even sequence has the following property: each maximal contiguous subsequence which contains only equal integers (i.e. the same integer repeated a number of times) has an even length. In particular, the empty sequence is even. A subsequence is maximal if it is not contained in a larger contiguous subsequence which contains only equal integers.
-Chef was given an integer sequence A1,A2,…,ANA1,A2,…,AN by his friend Mr. Z. He may perform the following operation any number of times: either delete an element of the current sequence (if it is non-empty) or insert an integer anywhere in the current sequence (possibly at the beginning or at the end).
+Chef was given an integer sequence A1,A2,…,AN by his friend Mr. Z. He may perform the following operation any number of times: either delete an element of the current sequence (if it is non-empty) or insert an integer anywhere in the current sequence (possibly at the beginning or at the end).
 Find the minimum number of operations needed to make the sequence even.
 Input
 
-The first line of the input contains a single integer TT denoting the number of test cases. The description of TT test cases follows.
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
 The first line of each test case contains a single integer N.
 The second line contains N space-separated integers A1,A2,…,AN.
 

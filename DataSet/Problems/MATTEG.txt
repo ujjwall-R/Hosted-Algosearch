@@ -1,6 +1,6 @@
 
 Read problems statements in mandarin chinese, russian and vietnamese as well.
-Mathison and Chef are playing a new teleportation game. This game is played on a R×CR×C board where each cell (i,j)(i,j) contains some value Vi,j. The purpose of this game is to collect a number of values by teleporting from one cell to another. A teleportation can be performed using a tel-pair.
+Mathison and Chef are playing a new teleportation game. This game is played on a R×CR×C board where each cell (i,j)(i,j) contains some value Vi,jVi,j. The purpose of this game is to collect a number of values by teleporting from one cell to another. A teleportation can be performed using a tel-pair.
 A player is given N tel-pairs. Each tel-pair can be used at most once and a player can use them in any order they like. Suppose a player is at cell (a,b) and the tel-pair is (dx,dy). Then, the player can reach in one teleportation any cell (c,d) from (a,b) such that |a−c|=dx and |b−d|=dy.
 It is Mathison’s turn next in the game to make a sequence of moves. He would like to know what is the highest value of a path of length at most N+1 that starts in (Sx,Sy) and uses some (possibly none) of the tel-pairs given. The length of a path is equal to the number of cells in the path. The value of a path is equal to the sum of Vi,j over all cells in the path.
 Input
